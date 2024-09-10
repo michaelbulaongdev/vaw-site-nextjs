@@ -1,33 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+	--color1: #151515;
+	--color2: #cf252e;
+	--color3: #e9b2b3;
+	--color4: #f2d1d1;
+	--color5: #fcf7f6;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+	background-color: white;
+	font-family: 'Nunito', system-ui;
+	font-size: large;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--color2);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+a {
+	font-size: large;
+}
+
+a:hover {
+	color: var(--color2);
+}
+
+.font2 {
+	font-family: 'EB Garamond', serif;
+	font-style: italic;
+	font-weight: 600;
 }
