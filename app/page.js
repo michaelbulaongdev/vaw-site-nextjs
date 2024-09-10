@@ -25,16 +25,48 @@ export default function Home() {
 				<CldImage
 					width='500'
 					height='500'
-					src=''
+					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009249/bie-1_n4lrmr.png'
 					sizes='100vw'
 					alt='BIE demonstration photo'
 					priority={true}
-					className='mx-auto px-5 pb-10 md:p-10 md:w-1/2 lg:w-2/5 object-scale-down'
+					className='mx-auto md:w-1/2 object-scale-down'
 				/>
-				<div className='md:w-1/2 lg:w-3/5 p-5 md:p-10 self-center'>
+				<div className='md:w-1/2 p-5 md:p-10 self-center'>
 					<h2 className='font2 p-5 text-color2 text-4xl'>
 						If you're looking for a way to balance and improve:
 					</h2>
+				</div>
+			</section>
+			<section className='bg-white flex flex-col-reverse md:flex-row'>
+				<div className='md:w-1/2 p-5 md:p-10 self-center'>
+					<h2 className='font2 p-5 text-color2 text-4xl'>
+						The BEST part? <span className='underline'>NO</span> needles are
+						involved!
+					</h2>
+				</div>
+				<CldImage
+					width='500'
+					height='500'
+					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009248/bie-2_dfodvs.png'
+					sizes='100vw'
+					alt='BIE demonstration photo'
+					priority={true}
+					className='mx-auto md:w-1/2 object-scale-down'
+				/>
+			</section>
+			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1726006464/pexels-jplenio-1423601_bsdnb4.jpg)] flex flex-col md:flex-row 2xl:px-5'>
+				<div className='py-40 text-center mx-auto w-screen bg-black/30'>
+					<h2 className='pt-10 px-10 font2 text-white text-6xl lg:text-8xl'>
+						OUR SERVICES
+					</h2>
+					<p className='text-white p-10 text-lg lg:text-2xl'>
+						BIOENERGETIC INTOLERANCE ELIMINATION (B.I.E.)
+					</p>
+					<div className='px-5'>
+						<button className='py-2 px-5 rounded-lg border border-3 border-white bg-black/10 text-white text-lg hover:bg-white hover:text-color5 ease-in-out duration-200'>
+							<Link href='/'>Learn More About B.I.E.</Link>
+						</button>
+					</div>
 				</div>
 			</section>
 		</main>
