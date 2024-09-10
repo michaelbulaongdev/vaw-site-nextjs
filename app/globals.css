@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,10 +7,10 @@
 
 :root {
 	--color1: #151515;
-	--color2: #cf252e;
-	--color3: #e9b2b3;
-	--color4: #f2d1d1;
-	--color5: #fcf7f6;
+	--color2: #5c244c;
+	--color3: #ae94a4;
+	--color4: #e4dce1;
+	--color5: #546c54;
 }
 
 html {
@@ -27,16 +27,11 @@ h6 {
 	color: var(--color2);
 }
 
-a {
-	font-size: large;
-}
-
 a:hover {
-	color: var(--color2);
+	color: var(--color5);
 }
 
 .font2 {
-	font-family: 'EB Garamond', serif;
-	font-style: italic;
-	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
 }

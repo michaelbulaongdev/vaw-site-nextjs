@@ -16,7 +16,7 @@ export default function NavBar() {
 	return (
 		<header
 			id='headerNavbar'
-			className='flex flex-row justify-between p-5 bg-transparent'>
+			className='flex flex-row justify-between py-1 px-5 bg-transparent'>
 			<Link href='/'>
 				<Image
 					src={VAWLogo}
@@ -33,21 +33,27 @@ export default function NavBar() {
 					className='lg:hidden'
 				/>
 			</Link>
-			<div className='flex flex-row space-x-10 my-auto text-lg items-center'>
+			<div className='flex flex-row space-x-7 my-auto items-center'>
 				<Link href='/' className={linkStyle}>
 					HOME
-				</Link>
-				<Link href='/' className={linkStyle}>
-					ABOUT
 				</Link>
 				<Link href='/' className={linkStyle}>
 					SERVICES
 				</Link>
 				<Link href='/' className={linkStyle}>
-					OUR WORK
+					FORMS
+				</Link>
+				<Link href='/' className={linkStyle}>
+					ABOUT
+				</Link>
+				<Link href='/' className={linkStyle}>
+					VISIT US
 				</Link>
 				<Link href='/' className={linkStyle}>
 					CONTACT
+				</Link>
+				<Link href='/' className={linkStyle}>
+					FAQ
 				</Link>
 
 				{/* menu for mobile and tablet widths */}
@@ -85,22 +91,32 @@ export default function NavBar() {
 							</MenuItem>
 							<MenuItem>
 								<Link href='/' className={linkStyleMenu}>
-									ABOUT
-								</Link>
-							</MenuItem>
-							<MenuItem>
-								<Link href='/' className={linkStyleMenu}>
 									SERVICES
 								</Link>
 							</MenuItem>
 							<MenuItem>
 								<Link href='/' className={linkStyleMenu}>
-									OUR WORK
+									FORMS
+								</Link>
+							</MenuItem>
+							<MenuItem>
+								<Link href='/' className={linkStyleMenu}>
+									ABOUT
+								</Link>
+							</MenuItem>
+							<MenuItem>
+								<Link href='/' className={linkStyleMenu}>
+									VISIT US
 								</Link>
 							</MenuItem>
 							<MenuItem>
 								<Link href='/' className={linkStyleMenu}>
 									CONTACT
+								</Link>
+							</MenuItem>
+							<MenuItem>
+								<Link href='/' className={linkStyleMenu}>
+									FAQ
 								</Link>
 							</MenuItem>
 						</MenuItems>
