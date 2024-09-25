@@ -26,28 +26,28 @@ export default function Home() {
 				<CldImage
 					width='500'
 					height='500'
-					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009249/bie-1_n4lrmr.png'
+					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/1_zvmvj3.png'
 					sizes='100vw'
 					alt='BIE demonstration photo'
 					priority={true}
 					className='mx-auto md:w-1/2 object-scale-down'
 				/>
 				<div className='md:w-1/2 p-5 md:p-10 self-center'>
-					<h2 className='font2 p-5 text-color2 text-2xl lg:text-3xl xl:text-4xl'>
+					<h2 className='font2 p-5 text-color1 text-2xl lg:text-3xl xl:text-4xl'>
 						If you&apos;re looking for a way to balance and improve:
 					</h2>
 					<ul className='pl-5 md:pl-10'>
 						{homeList1.map((item, index) => (
 							<li
 								key={index}
-								className='flex flex-row space-x-5 text-md xl:text-xl text-color2 py-1'>
+								className='flex flex-row space-x-5 text-md xl:text-xl text-color1 py-1'>
 								<p>
 									<svg
 										xmlns='http://www.w3.org/2000/svg'
 										height='24px'
 										viewBox='0 -960 960 960'
 										width='24px'
-										fill='#5c244c'>
+										fill='#444373'>
 										<path d='m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z' />
 									</svg>
 								</p>
@@ -59,15 +59,29 @@ export default function Home() {
 			</section>
 			<section className='bg-white flex flex-col md:flex-row'>
 				<div className='md:w-1/2 p-5 md:p-10 self-center'>
-					<h2 className='font2 p-5 text-color2 text-4xl'>
+					<h2 className='font2 p-5 text-color1 text-4xl'>
 						The BEST part? <span className='underline'>NO</span> needles are
 						involved!
 					</h2>
+					<p className='text-color1'>
+						Working with Valley Allergy + Wellness will involve{' '}
+						<strong>Bioenergetic Intolerance Elimination (B.I.E.)</strong>, a
+						practice that uses energetic frequencies to identify the stressor(s)
+						that are causing a negative reaction within your body. Once these
+						stressors are identified, balance is then restored by using a safe,
+						non-invasive patented device to re- introduce the frequencies to 16
+						acupuncture points across the body.
+					</p>
+					<div className='p-5'>
+						<button className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
+							<Link href='/'>BOOK YOUR APPOINTMENT TODAY</Link>
+						</button>
+					</div>
 				</div>
 				<CldImage
 					width='500'
 					height='500'
-					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009248/bie-2_dfodvs.png'
+					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/2_zyurnh.png'
 					sizes='100vw'
 					alt='BIE demonstration photo'
 					priority={true}
