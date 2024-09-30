@@ -7,7 +7,7 @@ import {homeList1} from './textContent';
 export default function Home() {
 	return (
 		<main className='flex flex-col'>
-			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1726706959/sunrise-adobe-preview_bx3f2z.png)] flex flex-col md:flex-row 2xl:px-5'>
+			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1726706959/sunrise-adobe-preview_bx3f2z.png)] flex flex-col md:flex-row'>
 				<div className='py-40 text-center mx-auto w-screen bg-black/10'>
 					<h1 className='pt-10 px-10 font2 text-white text-6xl lg:text-8xl'>
 						Relief starts here.
@@ -24,13 +24,13 @@ export default function Home() {
 			</section>
 			<section className='bg-white flex flex-col-reverse md:flex-row'>
 				<CldImage
-					width='500'
-					height='500'
+					width='800'
+					height='800'
 					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/1_zvmvj3.png'
 					sizes='100vw'
 					alt='BIE demonstration photo'
 					priority={true}
-					className='mx-auto md:w-1/2 object-scale-down'
+					className='md:w-1/2 object-scale-down bg-color2'
 				/>
 				<div className='md:w-1/2 p-5 md:p-10 self-center'>
 					<h2 className='font2 p-5 text-color1 text-2xl lg:text-3xl xl:text-4xl'>
@@ -79,20 +79,70 @@ export default function Home() {
 					</div>
 				</div>
 				<CldImage
-					width='500'
-					height='500'
+					width='800'
+					height='800'
 					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/2_zyurnh.png'
 					sizes='100vw'
 					alt='BIE demonstration photo'
 					priority={true}
-					className='mx-auto md:w-1/2 object-scale-down'
+					className='md:w-1/2 object-scale-down bg-color2'
 				/>
 			</section>
-			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1726006464/pexels-jplenio-1423601_bsdnb4.jpg)] flex flex-col md:flex-row 2xl:px-5'>
-				<div className='py-40 text-center mx-auto w-screen bg-black/30'>
-					<h2 className='pt-10 px-10 font2 text-white text-4xl'>
+			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1726006464/pexels-jplenio-1423601_bsdnb4.jpg)] flex flex-col md:flex-row'>
+				<div className='py-16 text-center mx-auto w-full bg-black/10'>
+					<h2 className='px-10 mb-16 font2 text-white text-5xl'>
 						OUR SERVICES
 					</h2>
+					<div className='flex flex-col space-y-10 md:space-y-0 md:flex-row md:divide-x'>
+						<div className='md:w-1/2'>
+							<div className='flex flex-col max-w-xs h-full mx-auto bg-white/90 rounded-2xl p-5 justify-between'>
+								<div className='space-y-5'>
+									<h3 className='text-color1 text-2xl font-bold'>
+										INITIAL VISIT
+									</h3>
+									<p className='bg-color1 text-white text-xl w-24 mx-auto p-2 rounded-3xl'>
+										$185
+									</p>
+									<ul className='list-disc mx-14 text-left'>
+										<li>1 - 1.5 hours</li>
+										<li>Muscle testing for homeostatic imbalances</li>
+										<li>
+											Balancing of up to 4 different categories of stressors
+										</li>
+									</ul>
+								</div>
+
+								<button className='py-2 px-5 mt-5 md:mt-0 mx-auto rounded-lg border border-3 border-color1 bg-color1 text-white text-base hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
+									<Link href='/'>LEARN MORE</Link>
+								</button>
+							</div>
+						</div>
+						<div className='md:w-1/2'>
+							<div className='max-w-xs h-full mx-auto bg-white/90 rounded-2xl p-5 space-y-5'>
+								<h3 className='text-color1 text-2xl font-bold'>
+									FOLLOW-UP VISITS
+								</h3>
+								<p className='bg-color1 text-white text-xl w-24 mx-auto p-2 rounded-3xl'>
+									$85
+								</p>
+								<ul className='list-disc mx-14 text-left'>
+									<li>30-40 minutes</li>
+									<li>Re-testing of the first set of stressors</li>
+									<li>Testing of any additional stressors</li>
+									<li>
+										Modification in plan and determination of additional
+										sessions
+									</li>
+								</ul>
+								<button className='py-2 px-5 rounded-lg border border-3 border-color1 bg-color1 text-white text-base hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
+									<Link href='/'>LEARN MORE</Link>
+								</button>
+							</div>
+						</div>
+					</div>
+					<p className='m-8 text-white text-2xl'>
+						Ask about our packaged service bundles!
+					</p>
 				</div>
 			</section>
 		</main>
