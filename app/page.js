@@ -13,7 +13,7 @@ export default function Home() {
 						Relief starts here.
 					</h1>
 					<p className='text-white p-10 text-lg lg:text-2xl'>
-						BIOENERGETIC INTOLERANCE ELIMINATION (B.I.E.)
+						BIOENERGETIC INTOLERANCE ELIMINATION &#40;B.I.E.&#41;
 					</p>
 					<div className='px-5'>
 						<button className='py-2 px-5 rounded-lg border border-3 border-white bg-black/10 text-white text-lg hover:bg-white hover:text-color5 ease-in-out duration-200'>
@@ -64,13 +64,15 @@ export default function Home() {
 						involved!
 					</h2>
 					<p className='text-color1'>
-						Working with Valley Allergy + Wellness will involve{' '}
-						<strong>Bioenergetic Intolerance Elimination (B.I.E.)</strong>, a
-						practice that uses energetic frequencies to identify the stressor(s)
-						that are causing a negative reaction within your body. Once these
-						stressors are identified, balance is then restored by using a safe,
-						non-invasive patented device to re- introduce the frequencies to 16
-						acupuncture points across the body.
+						Working with Valley Allergy + Wellness will involve&nbsp;
+						<strong>
+							Bioenergetic Intolerance Elimination &#40;B.I.E.&#41;
+						</strong>
+						, a practice that uses energetic frequencies to identify the
+						stressor&#40;s&#41; that are causing a negative reaction within your
+						body. Once these stressors are identified, balance is then restored
+						by using a safe, non-invasive patented device to re- introduce the
+						frequencies to 16 acupuncture points across the body.
 					</p>
 					<div className='p-5'>
 						<button className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
@@ -148,5 +150,3 @@ export default function Home() {
 		</main>
 	);
 }
-
-// comment to deploy
