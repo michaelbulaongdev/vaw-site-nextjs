@@ -7,10 +7,10 @@ import {homeList1} from './textContent';
 export default function Home() {
 	return (
 		<main className='flex flex-col'>
-			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1726706959/sunrise-adobe-preview_bx3f2z.png)] flex flex-col md:flex-row'>
+			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1728055039/AdobeStock_85532144_fuq6m0.jpg)] flex flex-col md:flex-row'>
 				<div className='py-40 text-center mx-auto w-screen bg-black/10'>
-					<h1 className='pt-10 px-10 font2 text-white text-6xl lg:text-8xl'>
-						Relief starts here.
+					<h1 className='pt-10 px-10 font2 text-white text-5xl lg:text-7xl max-w-5xl mx-auto leading-tight'>
+						Root cause solutions for everyday health problems
 					</h1>
 					<p className='text-white p-10 text-lg lg:text-2xl'>
 						BIOENERGETIC INTOLERANCE ELIMINATION &#40;B.I.E.&#41;
@@ -23,15 +23,7 @@ export default function Home() {
 				</div>
 			</section>
 			<section className='bg-white flex flex-col-reverse md:flex-row'>
-				<CldImage
-					width='800'
-					height='800'
-					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/1_zvmvj3.png'
-					sizes='100vw'
-					alt='BIE demonstration photo'
-					priority={true}
-					className='md:w-1/2 object-scale-down bg-color2'
-				/>
+				<div className='md:w-1/2 bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/1_zvmvj3.png)]'></div>
 				<div className='md:w-1/2 p-5 md:p-10 self-center'>
 					<h2 className='font2 p-5 text-color1 text-2xl lg:text-3xl xl:text-4xl'>
 						If you&apos;re looking for a way to balance and improve:
@@ -58,12 +50,14 @@ export default function Home() {
 				</div>
 			</section>
 			<section className='bg-white flex flex-col md:flex-row'>
-				<div className='md:w-1/2 p-5 md:p-10 self-center'>
-					<h2 className='font2 p-5 text-color1 text-4xl'>
-						The BEST part? <span className='underline'>NO</span> needles are
-						involved!
+				<div className='md:w-1/2 p-5 md:p-10 lg:p-20 self-center'>
+					<h2 className='font2 text-color1 text-3xl md:text-4xl'>
+						The BEST part?
 					</h2>
-					<p className='text-color1'>
+					<h2 className='font2 text-color1 text-3xl md:text-4xl'>
+						<span className='underline'>NO</span> needles are involved!
+					</h2>
+					<p className='my-5 lg:my-10 text-color1 lg:text-xl'>
 						Working with Valley Allergy + Wellness will involve&nbsp;
 						<strong>
 							Bioenergetic Intolerance Elimination &#40;B.I.E.&#41;
@@ -74,7 +68,7 @@ export default function Home() {
 						by using a safe, non-invasive patented device to re- introduce the
 						frequencies to 16 acupuncture points across the body.
 					</p>
-					<div className='p-5'>
+					<div>
 						<button className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
 							<Link href='/'>BOOK YOUR APPOINTMENT TODAY</Link>
 						</button>
@@ -150,5 +144,3 @@ export default function Home() {
 		</main>
 	);
 }
-
-// comment to test deploy
