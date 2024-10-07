@@ -96,7 +96,7 @@ export default function NavBar() {
 								</Link>
 							</MenuItem>
 							<MenuItem>
-								<Link href='/' className={linkStyleMenu}>
+								<Link href='#services' className={linkStyleMenu}>
 									SERVICES
 								</Link>
 							</MenuItem>

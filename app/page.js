@@ -77,7 +77,9 @@ export default function Home() {
 					</p>
 					<div>
 						<button className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
-							<Link href='/'>BOOK YOUR APPOINTMENT TODAY</Link>
+							<Link href='https://book.squareup.com/appointments/k5xabxhqoc83g2/location/L5QGYQW5FHNP6/services'>
+								BOOK YOUR APPOINTMENT TODAY
+							</Link>
 						</button>
 					</div>
 				</div>
@@ -97,7 +99,7 @@ export default function Home() {
 									<h3 className='text-color1 text-2xl font2 font-bold'>
 										INITIAL VISIT
 									</h3>
-									<p className='bg-color1 text-white text-xl w-24 mx-auto p-2 rounded-3xl'>
+									<p className='bg-color1 text-white text-xl w-24 mx-auto p-1 rounded-3xl'>
 										$185
 									</p>
 									<ul className='list-disc mx-14 text-left'>
@@ -119,7 +121,7 @@ export default function Home() {
 								<h3 className='text-color1 text-2xl font2 font-bold'>
 									FOLLOW-UP VISITS
 								</h3>
-								<p className='bg-color1 text-white text-xl w-24 mx-auto p-2 rounded-3xl'>
+								<p className='bg-color1 text-white text-xl w-24 mx-auto p-1 rounded-3xl'>
 									$85
 								</p>
 								<ul className='list-disc mx-14 text-left'>
@@ -148,7 +150,7 @@ export default function Home() {
 					height='800'
 					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009247/dchan-1_dxsjdf.png'
 					sizes='100vw'
-					alt='photo of deborah'
+					alt='profile photo of deborah'
 					className='md:w-1/2 lg:w-2/5 p-10 object-scale-down mx-auto'
 				/>
 				<div className='md:w-1/2 lg:w-3/5 p-10 flex flex-col justify-center lg:px-20 xl:px-32'>
@@ -182,7 +184,7 @@ export default function Home() {
 							<p>
 								This section will contain testimonials from different clients.
 							</p>
-							<p className='uppercase'>Client Name</p>
+							<p className='uppercase'>client name 1</p>
 						</div>
 					</div>
 					<div className='w-full h-96 flex align-middle justify-center p-10'>
@@ -190,7 +192,7 @@ export default function Home() {
 							<p>
 								This section will contain testimonials from different clients.
 							</p>
-							<p className='uppercase'>Client Name</p>
+							<p className='uppercase'>client name 2</p>
 						</div>
 					</div>
 					<div className='w-full h-96 flex align-middle justify-center p-10'>
@@ -198,7 +200,7 @@ export default function Home() {
 							<p>
 								This section will contain testimonials from different clients.
 							</p>
-							<p className='uppercase'>Client Name</p>
+							<p className='uppercase'>client name 3</p>
 						</div>
 					</div>
 				</Carousel>
@@ -210,7 +212,48 @@ export default function Home() {
 					procedures.
 				</p>
 			</section>
-			<section></section>
+			<section className='p-5'>
+				<p className='text-color1 font-bold text-center md:text-left'>
+					Follow us on Instagram!
+				</p>
+				<Link
+					className='mt-5 flex flex-col md:flex-row md:space-x-1'
+					href='https://www.instagram.com/valleyallergywellness/'
+					target='_blank'>
+					<CldImage
+						width='300'
+						height='300'
+						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009247/insta-1_xoczzf.png'
+						sizes='100vw'
+						alt='instagram post thumbnail'
+						className='md:w-1/4 object-scale-down mx-auto'
+					/>
+					<CldImage
+						width='300'
+						height='300'
+						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009248/insta-2_ckbznb.png'
+						sizes='100vw'
+						alt='instagram post thumbnail'
+						className='hidden md:block md:w-1/4 object-scale-down mx-auto'
+					/>
+					<CldImage
+						width='300'
+						height='300'
+						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009246/insta-3_ej42fj.png'
+						sizes='100vw'
+						alt='instagram post thumbnail'
+						className='hidden md:block md:w-1/4 object-scale-down mx-auto'
+					/>
+					<CldImage
+						width='300'
+						height='300'
+						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728269781/insta-4_fn7rls.png'
+						sizes='100vw'
+						alt='instagram post thumbnail'
+						className='hidden md:block md:w-1/4 object-scale-down mx-auto'
+					/>
+				</Link>
+			</section>
 		</main>
 	);
 }

@@ -1,5 +1,5 @@
 export const linkStyle =
-	'hidden lg:block cursor-pointer ease-in-out duration-200 text-color1 hover:text-black';
+	'hidden lg:block cursor-pointer ease-in-out duration-200 text-color1 hover:text-color3';
 
 export const linkStyleMenu =
 	'lg:hidden cursor-pointer ease-in-out duration-200';
