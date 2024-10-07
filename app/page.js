@@ -212,12 +212,12 @@ export default function Home() {
 					procedures.
 				</p>
 			</section>
-			<section className='p-5'>
+			<section className='p-10'>
 				<p className='text-color1 font-bold text-center md:text-left'>
 					Follow us on Instagram!
 				</p>
 				<Link
-					className='mt-5 flex flex-col md:flex-row md:space-x-1'
+					className='mt-3 flex flex-col md:flex-row md:space-x-1'
 					href='https://www.instagram.com/valleyallergywellness/'
 					target='_blank'>
 					<CldImage

@@ -1,18 +1,20 @@
-import NavBar from "./components/NavBar";
-import "./globals.css";
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import './globals.css';
 
 export const metadata = {
-  title: "Valley Allergy + Wellness",
-  description: "Relief starts here.",
+	title: 'Valley Allergy + Wellness',
+	description: 'Relief starts here.',
 };
 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className="max-w-screen-2xl mx-auto">
-        <NavBar></NavBar>
-        {children}
-      </body>
-    </html>
-  );
+export default function RootLayout({children}) {
+	return (
+		<html lang='en'>
+			<body className='max-w-screen-2xl mx-auto'>
+				<NavBar />
+				{children}
+				<Footer />
+			</body>
+		</html>
+	);
 }
