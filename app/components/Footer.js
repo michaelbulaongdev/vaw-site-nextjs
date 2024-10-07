@@ -23,7 +23,7 @@ export default function Footer() {
 					procedures.
 				</p>
 			</section>
-			<section className='p-10'>
+			<section className='p-10 bg-color4/10'>
 				<p className='text-color1 font-bold text-center md:text-left'>
 					Follow us on Instagram!
 				</p>
