@@ -53,7 +53,7 @@ export default function NavBar() {
 					FAQ
 				</Link>
 				<div className='hidden lg:block'>
-					<button className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
+					<button className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
 						<Link href='/'>BOOK NOW</Link>
 					</button>
 				</div>

@@ -8,8 +8,8 @@ export default function Home() {
 	return (
 		<main className='flex flex-col'>
 			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1728055039/AdobeStock_85532144_fuq6m0.jpg)] flex flex-col md:flex-row'>
-				<div className='py-40 text-center mx-auto w-screen bg-black/10'>
-					<h1 className='pt-10 px-10 font2 text-white text-5xl lg:text-7xl max-w-5xl mx-auto leading-tight'>
+				<div className='py-36 text-center mx-auto md:w-screen bg-black/10'>
+					<h1 className='px-10 font2 text-white text-5xl lg:text-7xl max-w-5xl mx-auto leading-tight'>
 						Root cause solutions for everyday health problems
 					</h1>
 					<p className='text-white p-10 text-lg lg:text-2xl'>
@@ -23,16 +23,16 @@ export default function Home() {
 				</div>
 			</section>
 			<section className='bg-white flex flex-col-reverse md:flex-row'>
-				<div className='md:w-1/2 bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/1_zvmvj3.png)]'></div>
+				<div className='md:w-1/2 min-h-screen bg-cover bg-color4 bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/1_zvmvj3.png)]'></div>
 				<div className='md:w-1/2 p-5 md:p-10 self-center'>
-					<h2 className='font2 p-5 text-color1 text-2xl lg:text-3xl xl:text-4xl'>
+					<h2 className='font2 p-5 text-color1 text-2xl lg:text-3xl'>
 						If you&apos;re looking for a way to balance and improve:
 					</h2>
-					<ul className='pl-5 md:pl-10'>
+					<ul className='pl-5'>
 						{homeList1.map((item, index) => (
 							<li
 								key={index}
-								className='flex flex-row space-x-5 text-md xl:text-xl text-color1 py-1'>
+								className='flex flex-row space-x-5 text-md lg:text-lg text-color1 py-1'>
 								<p>
 									<svg
 										xmlns='http://www.w3.org/2000/svg'
@@ -47,17 +47,23 @@ export default function Home() {
 							</li>
 						))}
 					</ul>
+					<p className='p-5 text-color1 text-xl lg:text-2xl'>
+						<span className='font2 font-bold'>
+							Bioenergetic Intolerance Elimination &#40;B.I.E.&#41;
+						</span>
+						&nbsp; may be the answer for YOU!
+					</p>
 				</div>
 			</section>
 			<section className='bg-white flex flex-col md:flex-row'>
-				<div className='md:w-1/2 p-5 md:p-10 lg:p-20 self-center'>
+				<div className='md:w-1/2 p-10 self-center'>
 					<h2 className='font2 text-color1 text-3xl md:text-4xl'>
 						The BEST part?
 					</h2>
 					<h2 className='font2 text-color1 text-3xl md:text-4xl'>
 						<span className='underline'>NO</span> needles are involved!
 					</h2>
-					<p className='my-5 lg:my-10 text-color1 lg:text-xl'>
+					<p className='my-5 lg:my-10 text-color1 lg:text-lg'>
 						Working with Valley Allergy + Wellness will involve&nbsp;
 						<strong>
 							Bioenergetic Intolerance Elimination &#40;B.I.E.&#41;
@@ -74,26 +80,18 @@ export default function Home() {
 						</button>
 					</div>
 				</div>
-				<CldImage
-					width='800'
-					height='800'
-					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/2_zyurnh.png'
-					sizes='100vw'
-					alt='BIE demonstration photo'
-					priority={true}
-					className='md:w-1/2 object-scale-down bg-color2'
-				/>
+				<div className='md:w-1/2 min-h-screen bg-cover bg-color4 bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/2_zyurnh.png)]'></div>
 			</section>
 			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1726006464/pexels-jplenio-1423601_bsdnb4.jpg)] flex flex-col md:flex-row'>
 				<div className='py-16 text-center mx-auto w-full bg-black/10'>
-					<h2 className='px-10 mb-16 font2 text-white text-5xl'>
+					<h2 className='px-10 mb-10 font2 text-white text-5xl'>
 						OUR SERVICES
 					</h2>
 					<div className='flex flex-col space-y-10 md:space-y-0 md:flex-row md:divide-x'>
 						<div className='md:w-1/2'>
 							<div className='flex flex-col max-w-xs h-full mx-auto bg-white/90 rounded-2xl p-5 justify-between'>
 								<div className='space-y-5'>
-									<h3 className='text-color1 text-2xl font-bold'>
+									<h3 className='text-color1 text-2xl font2 font-bold'>
 										INITIAL VISIT
 									</h3>
 									<p className='bg-color1 text-white text-xl w-24 mx-auto p-2 rounded-3xl'>
@@ -115,7 +113,7 @@ export default function Home() {
 						</div>
 						<div className='md:w-1/2'>
 							<div className='max-w-xs h-full mx-auto bg-white/90 rounded-2xl p-5 space-y-5'>
-								<h3 className='text-color1 text-2xl font-bold'>
+								<h3 className='text-color1 text-2xl font2 font-bold'>
 									FOLLOW-UP VISITS
 								</h3>
 								<p className='bg-color1 text-white text-xl w-24 mx-auto p-2 rounded-3xl'>
@@ -136,10 +134,43 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					<p className='m-8 text-white text-2xl'>
+					<p className='mx-10 pt-10 text-white text-2xl'>
 						Ask about our packaged service bundles!
 					</p>
 				</div>
+			</section>
+			<section className='flex flex-col md:flex-row'>
+				<CldImage
+					width='600'
+					height='800'
+					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009247/dchan-1_dxsjdf.png'
+					sizes='100vw'
+					alt='photo of deborah'
+					className='md:w-1/2 lg:w-2/5 p-10 object-scale-down mx-auto'
+				/>
+				<div className='md:w-1/2 lg:w-3/5 p-10 flex flex-col justify-center lg:px-20 xl:px-32'>
+					<CldImage
+						width='50'
+						height='50'
+						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728259824/quotes_jjoofq.png'
+						sizes='100vw'
+						alt='quotation mark'
+						className='mx-auto'
+					/>
+					<p className='lg:text-lg my-5 lg:my-10 text-center text-color1'>
+						My mission at Valley Allergy + Wellness is to assist YOU in your
+						pursuit for health and wellness and to empower you to connect to
+						yourself - in mind, body, and spirit and THRIVE! My goal is to
+						provide you with a safe and welcoming space to share your story,
+						find healing, and give you hope for tomorrow.
+					</p>
+					<p className='text-sm text-center text-color1 bg-gray-200'>
+						— <span className='font2'>DEBORAH CHAN</span>, Owner
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2>Client Love</h2>
 			</section>
 		</main>
 	);
