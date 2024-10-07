@@ -205,55 +205,6 @@ export default function Home() {
 					</div>
 				</Carousel>
 			</section>
-			<section className='bg-color3/50 p-2 text-center text-sm text-gray-800'>
-				<p>
-					<span className='font-bold'>Disclaimer: </span>B.I.E. practitioners
-					are not medical doctors and do not use medical diagnostic or treatment
-					procedures.
-				</p>
-			</section>
-			<section className='p-10'>
-				<p className='text-color1 font-bold text-center md:text-left'>
-					Follow us on Instagram!
-				</p>
-				<Link
-					className='mt-3 flex flex-col md:flex-row md:space-x-1'
-					href='https://www.instagram.com/valleyallergywellness/'
-					target='_blank'>
-					<CldImage
-						width='300'
-						height='300'
-						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009247/insta-1_xoczzf.png'
-						sizes='100vw'
-						alt='instagram post thumbnail'
-						className='md:w-1/4 object-scale-down mx-auto'
-					/>
-					<CldImage
-						width='300'
-						height='300'
-						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009248/insta-2_ckbznb.png'
-						sizes='100vw'
-						alt='instagram post thumbnail'
-						className='hidden md:block md:w-1/4 object-scale-down mx-auto'
-					/>
-					<CldImage
-						width='300'
-						height='300'
-						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009246/insta-3_ej42fj.png'
-						sizes='100vw'
-						alt='instagram post thumbnail'
-						className='hidden md:block md:w-1/4 object-scale-down mx-auto'
-					/>
-					<CldImage
-						width='300'
-						height='300'
-						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728269781/insta-4_fn7rls.png'
-						sizes='100vw'
-						alt='instagram post thumbnail'
-						className='hidden md:block md:w-1/4 object-scale-down mx-auto'
-					/>
-				</Link>
-			</section>
 		</main>
 	);
 }

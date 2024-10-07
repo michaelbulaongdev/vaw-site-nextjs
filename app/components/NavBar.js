@@ -15,7 +15,7 @@ import {Fragment} from 'react';
 export default function NavBar() {
 	return (
 		<header
-			id='headerNavbar'
+			id='top'
 			className='flex flex-row justify-between py-1 px-5 bg-transparent'>
 			<Link href='/'>
 				<Image
@@ -37,7 +37,7 @@ export default function NavBar() {
 				<Link href='/' className={linkStyle}>
 					HOME
 				</Link>
-				<Link href='#services' className={linkStyle}>
+				<Link href='/#services' className={linkStyle}>
 					SERVICES
 				</Link>
 				<Link href='/' className={linkStyle}>
@@ -46,7 +46,7 @@ export default function NavBar() {
 				<Link href='/' className={linkStyle}>
 					ABOUT
 				</Link>
-				<Link href='/' className={linkStyle}>
+				<Link href='/#contact' className={linkStyle}>
 					CONTACT
 				</Link>
 				<Link href='/' className={linkStyle}>
