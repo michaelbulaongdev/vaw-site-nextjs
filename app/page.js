@@ -3,6 +3,7 @@
 import {CldImage} from 'next-cloudinary';
 import Link from 'next/link';
 import {homeList1} from './textContent';
+import {Carousel} from '@material-tailwind/react';
 
 export default function Home() {
 	return (
@@ -23,7 +24,7 @@ export default function Home() {
 				</div>
 			</section>
 			<section className='bg-white flex flex-col-reverse md:flex-row'>
-				<div className='md:w-1/2 min-h-screen bg-cover bg-color4 bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/1_zvmvj3.png)]'></div>
+				<div className='md:w-1/2 min-h-screen bg-cover bg-color4/75 bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/1_zvmvj3.png)]'></div>
 				<div className='md:w-1/2 p-5 md:p-10 self-center'>
 					<h2 className='font2 p-5 text-color1 text-2xl lg:text-3xl'>
 						If you&apos;re looking for a way to balance and improve:
@@ -80,9 +81,11 @@ export default function Home() {
 						</button>
 					</div>
 				</div>
-				<div className='md:w-1/2 min-h-screen bg-cover bg-color4 bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/2_zyurnh.png)]'></div>
+				<div className='md:w-1/2 min-h-screen bg-cover bg-color4/75 bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/2_zyurnh.png)]'></div>
 			</section>
-			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1726006464/pexels-jplenio-1423601_bsdnb4.jpg)] flex flex-col md:flex-row'>
+			<section
+				id='services'
+				className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1726006464/pexels-jplenio-1423601_bsdnb4.jpg)] flex flex-col md:flex-row'>
 				<div className='py-16 text-center mx-auto w-full bg-black/10'>
 					<h2 className='px-10 mb-10 font2 text-white text-5xl'>
 						OUR SERVICES
@@ -169,9 +172,45 @@ export default function Home() {
 					</p>
 				</div>
 			</section>
-			<section>
-				<h2>Client Love</h2>
+			<section className='bg-color2/70 text-white text-center py-10'>
+				<h2 className='font2 text-white text-5xl lg:text-6xl text-center p-5'>
+					Client Love
+				</h2>
+				<Carousel>
+					<div className='w-full h-96 flex align-middle justify-center p-10'>
+						<div className='flex flex-col border border-white p-10 justify-center space-y-10'>
+							<p>
+								This section will contain testimonials from different clients.
+							</p>
+							<p className='uppercase'>Client Name</p>
+						</div>
+					</div>
+					<div className='w-full h-96 flex align-middle justify-center p-10'>
+						<div className='flex flex-col border border-white p-10 justify-center space-y-10'>
+							<p>
+								This section will contain testimonials from different clients.
+							</p>
+							<p className='uppercase'>Client Name</p>
+						</div>
+					</div>
+					<div className='w-full h-96 flex align-middle justify-center p-10'>
+						<div className='flex flex-col border border-white p-10 justify-center space-y-10'>
+							<p>
+								This section will contain testimonials from different clients.
+							</p>
+							<p className='uppercase'>Client Name</p>
+						</div>
+					</div>
+				</Carousel>
 			</section>
+			<section className='bg-color3/50 p-2 text-center text-sm text-gray-800'>
+				<p>
+					<span className='font-bold'>Disclaimer: </span>B.I.E. practitioners
+					are not medical doctors and do not use medical diagnostic or treatment
+					procedures.
+				</p>
+			</section>
+			<section></section>
 		</main>
 	);
 }

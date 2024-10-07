@@ -17,6 +17,7 @@ html {
 	background-color: white;
 	font-family: 'Nunito', system-ui;
 	font-size: large;
+	scroll-behavior: smooth;
 }
 
 h2,
