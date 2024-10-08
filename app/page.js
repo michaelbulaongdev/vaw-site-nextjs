@@ -17,9 +17,11 @@ export default function Home() {
 						BIOENERGETIC INTOLERANCE ELIMINATION &#40;B.I.E.&#41;
 					</p>
 					<div className='px-5'>
-						<button className='py-2 px-5 rounded-lg border border-3 border-white bg-black/10 text-white text-lg hover:bg-white hover:text-color5 ease-in-out duration-200'>
-							<Link href='/'>Learn More About B.I.E.</Link>
-						</button>
+						<Link
+							href='/'
+							className='py-2 px-5 rounded-lg border border-3 border-white bg-black/10 text-white text-lg hover:bg-white hover:text-color5 ease-in-out duration-200'>
+							Learn More About B.I.E.
+						</Link>
 					</div>
 				</div>
 			</section>
@@ -76,11 +78,11 @@ export default function Home() {
 						frequencies to 16 acupuncture points across the body.
 					</p>
 					<div>
-						<button className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
-							<Link href='https://book.squareup.com/appointments/k5xabxhqoc83g2/location/L5QGYQW5FHNP6/services'>
-								BOOK YOUR APPOINTMENT TODAY
-							</Link>
-						</button>
+						<Link
+							href='https://book.squareup.com/appointments/k5xabxhqoc83g2/location/L5QGYQW5FHNP6/services'
+							className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
+							BOOK YOUR APPOINTMENT TODAY
+						</Link>
 					</div>
 				</div>
 				<div className='md:w-1/2 min-h-screen bg-cover bg-color4/75 bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/2_zyurnh.png)]'></div>
@@ -110,10 +112,13 @@ export default function Home() {
 										</li>
 									</ul>
 								</div>
-
-								<button className='py-2 px-5 mt-5 md:mt-0 mx-auto rounded-lg border border-3 border-color1 bg-color1 text-white text-base hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
-									<Link href='/'>LEARN MORE</Link>
-								</button>
+								<div>
+									<Link
+										href='/'
+										className='py-2 px-5 mx-auto rounded-lg border border-3 border-color1 bg-color1 text-white text-base hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
+										LEARN MORE
+									</Link>
+								</div>
 							</div>
 						</div>
 						<div className='md:w-1/2'>
@@ -133,9 +138,13 @@ export default function Home() {
 										sessions
 									</li>
 								</ul>
-								<button className='py-2 px-5 rounded-lg border border-3 border-color1 bg-color1 text-white text-base hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
-									<Link href='/'>LEARN MORE</Link>
-								</button>
+								<div>
+									<Link
+										href='/'
+										className='py-2 px-5 mx-auto rounded-lg border border-3 border-color1 bg-color1 text-white text-base hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
+										LEARN MORE
+									</Link>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -179,28 +188,42 @@ export default function Home() {
 					Client Love
 				</h2>
 				<Carousel>
-					<div className='w-full h-96 flex align-middle justify-center p-10'>
-						<div className='flex flex-col border border-white p-10 justify-center space-y-10'>
-							<p>
-								This section will contain testimonials from different clients.
+					<div className='w-full min-h-96 flex align-middle justify-center p-10'>
+						<div className='flex flex-col border border-white p-10 justify-center space-y-10 mx-10 max-w-96'>
+							<p className='italic text-xs'>
+								&quot;Before the treatment with Deborah yesterday I was stressed
+								to the max! After the session, over the next hour it was a
+								subtle change. I just felt like I could resume normal life and
+								not have my thoughts occupied by the doom and gloom. I felt calm
+								and relaxed and when the negative thoughts came back I was able
+								to replace them with positive ones very easily. Something that
+								wasn&apos;t even possible before the treatment! That&apos;s huge
+								for me! Now I want to get more of the emotional work done!&quot;
 							</p>
-							<p className='uppercase'>client name 1</p>
+							<p className='uppercase text-lg'>patrick m.</p>
 						</div>
 					</div>
 					<div className='w-full h-96 flex align-middle justify-center p-10'>
-						<div className='flex flex-col border border-white p-10 justify-center space-y-10'>
-							<p>
-								This section will contain testimonials from different clients.
+						<div className='flex flex-col border border-white p-10 justify-center space-y-10 mx-10 max-w-96'>
+							<p className='italic text-xs'>
+								&quot;Deborah Chan is a delight to work with and I highly
+								recommend her service for anybody suffering from allergies or
+								any other imbalances in their system!&quot;
 							</p>
-							<p className='uppercase'>client name 2</p>
+							<p className='uppercase text-lg'>vicki p.</p>
 						</div>
 					</div>
 					<div className='w-full h-96 flex align-middle justify-center p-10'>
-						<div className='flex flex-col border border-white p-10 justify-center space-y-10'>
-							<p>
-								This section will contain testimonials from different clients.
+						<div className='flex flex-col border border-white p-10 justify-center space-y-10 mx-10 max-w-96'>
+							<p className='italic text-xs'>
+								&quot;For years now I&apos;ve had food sensitivities but the
+								real struggle has been with sugar! Deb didn&apos;t disappoint.
+								Very king and explained the process before the appointment. One
+								day I realized I wasn&apos;t even craving my favorite candy. I
+								couldn&apos;t wait to thank her & let her know about my new
+								found FREEDOM!&quot;
 							</p>
-							<p className='uppercase'>client name 3</p>
+							<p className='uppercase text-lg'>angi s.</p>
 						</div>
 					</div>
 				</Carousel>

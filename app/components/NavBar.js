@@ -43,7 +43,7 @@ export default function NavBar() {
 				<Link href='/' className={linkStyle}>
 					FORMS
 				</Link>
-				<Link href='/' className={linkStyle}>
+				<Link href='/about' className={linkStyle}>
 					ABOUT
 				</Link>
 				<Link href='/#contact' className={linkStyle}>
@@ -106,7 +106,7 @@ export default function NavBar() {
 								</Link>
 							</MenuItem>
 							<MenuItem>
-								<Link href='/' className={linkStyleMenu}>
+								<Link href='/about' className={linkStyleMenu}>
 									ABOUT
 								</Link>
 							</MenuItem>
@@ -121,9 +121,11 @@ export default function NavBar() {
 								</Link>
 							</MenuItem>
 							<MenuItem>
-								<button className='p-2 ml-10 rounded-lg border border-3 border-white bg-color1 text-white text-sm hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
-									<Link href='/'>BOOK NOW</Link>
-								</button>
+								<Link
+									href='/'
+									className='p-2 ml-10 rounded-lg border border-3 border-white bg-color1 text-white text-sm hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
+									BOOK NOW
+								</Link>
 							</MenuItem>
 						</MenuItems>
 					</Transition>
