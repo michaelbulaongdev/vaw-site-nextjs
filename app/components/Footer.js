@@ -118,7 +118,7 @@ export default function Footer() {
 						<div className='flex items-start mt-3'>
 							<Image src={MailSVG} alt='mail logo' />
 							<a
-								className='pl-3 hover:text-color4'
+								className='pl-3 hover:text-color4 text-xs'
 								href='https://maps.app.goo.gl/otoE1X1iBrQAHv9G8'
 								target='_blank'>
 								<p>2291 W March Lane</p>
@@ -129,7 +129,7 @@ export default function Footer() {
 						<div className='flex items-center h-7'>
 							<Image src={PhoneSVG} alt='phone logo' />
 							<a
-								className='pl-3 text-white hover:text-color4'
+								className='pl-3 text-white hover:text-color4 text-xs'
 								href='tel:+12097518676'>
 								+1 &#40;209&#41; 751-8676
 							</a>
