@@ -88,7 +88,7 @@ export default function Home() {
 			<section
 				id='services'
 				className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1726006464/pexels-jplenio-1423601_bsdnb4.jpg)] flex flex-col md:flex-row'>
-				<div className='py-16 text-center mx-auto w-full bg-black/10'>
+				<div className='py-16 px-5 text-center mx-auto w-full bg-black/10'>
 					<h2 className='px-10 mb-10 font2 text-white text-5xl'>
 						OUR SERVICES
 					</h2>
