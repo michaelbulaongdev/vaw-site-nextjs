@@ -156,7 +156,7 @@ export default function Footer() {
 							Weekend appointments available upon request.
 						</p>
 						<Link
-							href='https://book.squareup.com/appointments/k5xabxhqoc83g2/location/L5QGYQW5FHNP6/services'
+							href='https://squareup.com/appointments/book/k5xabxhqoc83g2/L5QGYQW5FHNP6/start'
 							target='_blank'
 							className='mt-2 px-1 rounded-2xl border border-3 border-white bg-color1 text-white text-sm text-center hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
 							BOOK YOUR APPOINTMENT TODAY

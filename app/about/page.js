@@ -3,7 +3,7 @@
 import {CldImage} from 'next-cloudinary';
 import Link from 'next/link';
 
-export default function Home() {
+export default function About() {
 	return (
 		<main className='flex flex-col'>
 			<section className='flex flex-col md:flex-row'>
@@ -30,7 +30,7 @@ export default function Home() {
 					<CldImage
 						width='600'
 						height='800'
-						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728429001/about-profile-pic_vddfln.png'
+						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728433190/DSC07767-1_mejhzi.jpg'
 						sizes='100vw'
 						alt='profile photo of deborah'
 						className='w-full p-10 object-scale-down mx-auto'
@@ -99,6 +99,13 @@ export default function Home() {
 					Thank you for your interest in BIE and for stopping by to learn more
 					about me and my story!
 				</p>
+				<div className='my-5'>
+					<Link
+						href='/'
+						className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
+						Learn more about BIE
+					</Link>
+				</div>
 			</section>
 		</main>
 	);

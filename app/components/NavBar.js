@@ -55,7 +55,7 @@ export default function NavBar() {
 				<div className='hidden lg:block'>
 					<button className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
 						<Link
-							href='https://book.squareup.com/appointments/k5xabxhqoc83g2/location/L5QGYQW5FHNP6/services'
+							href='https://squareup.com/appointments/book/k5xabxhqoc83g2/L5QGYQW5FHNP6/start'
 							target='_blank'>
 							BOOK NOW
 						</Link>
@@ -122,7 +122,7 @@ export default function NavBar() {
 							</MenuItem>
 							<MenuItem>
 								<Link
-									href='/'
+									href='https://squareup.com/appointments/book/k5xabxhqoc83g2/L5QGYQW5FHNP6/start'
 									className='p-2 ml-10 rounded-lg border border-3 border-white bg-color1 text-white text-sm hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
 									BOOK NOW
 								</Link>

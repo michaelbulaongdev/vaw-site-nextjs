@@ -79,7 +79,7 @@ export default function Home() {
 					</p>
 					<div>
 						<Link
-							href='https://book.squareup.com/appointments/k5xabxhqoc83g2/location/L5QGYQW5FHNP6/services'
+							href='https://squareup.com/appointments/book/k5xabxhqoc83g2/L5QGYQW5FHNP6/start'
 							className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
 							BOOK YOUR APPOINTMENT TODAY
 						</Link>
@@ -114,7 +114,7 @@ export default function Home() {
 								</div>
 								<div>
 									<Link
-										href='/'
+										href='/services'
 										className='py-2 px-5 mx-auto rounded-lg border border-3 border-color1 bg-color1 text-white text-base hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
 										LEARN MORE
 									</Link>
@@ -140,7 +140,7 @@ export default function Home() {
 								</ul>
 								<div>
 									<Link
-										href='/'
+										href='/services'
 										className='py-2 px-5 mx-auto rounded-lg border border-3 border-color1 bg-color1 text-white text-base hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
 										LEARN MORE
 									</Link>
@@ -183,7 +183,7 @@ export default function Home() {
 					</p>
 				</div>
 			</section>
-			<section className='bg-color2/70 text-white text-center py-10'>
+			<section className='bg-color2/90 text-white text-center py-10'>
 				<h2 className='font2 text-white text-5xl lg:text-6xl text-center p-5'>
 					Client Love
 				</h2>
@@ -205,7 +205,7 @@ export default function Home() {
 					</div>
 					<div className='w-full h-96 flex align-middle justify-center p-10'>
 						<div className='flex flex-col border border-white p-10 justify-center space-y-10 mx-10 max-w-96'>
-							<p className='italic text-xs'>
+							<p className='italic'>
 								&quot;Deborah Chan is a delight to work with and I highly
 								recommend her service for anybody suffering from allergies or
 								any other imbalances in their system!&quot;
