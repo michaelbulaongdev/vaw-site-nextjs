@@ -28,7 +28,7 @@ export default function Footer() {
 					Follow us on Instagram!
 				</p>
 				<Link
-					className='mt-3 flex flex-col md:flex-row md:space-x-1'
+					className='mt-3 flex flex-col md:flex-row md:space-x-1 border'
 					href='https://www.instagram.com/valleyallergywellness/'
 					target='_blank'>
 					<CldImage
@@ -155,12 +155,13 @@ export default function Footer() {
 						<p className='text-xs italic'>
 							Weekend appointments available upon request.
 						</p>
-						<Link
-							href='https://squareup.com/appointments/book/k5xabxhqoc83g2/L5QGYQW5FHNP6/start'
-							target='_blank'
-							className='mt-2 px-1 rounded-2xl border border-3 border-white bg-color1 text-white text-sm text-center hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
-							BOOK YOUR APPOINTMENT TODAY
-						</Link>
+						<button className='mt-2 px-1 rounded-2xl border border-3 border-white bg-color1 text-white text-sm text-center hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
+							<Link
+								href='https://squareup.com/appointments/book/k5xabxhqoc83g2/L5QGYQW5FHNP6/start'
+								target='_blank'>
+								BOOK YOUR APPOINTMENT TODAY
+							</Link>
+						</button>
 					</div>
 				</div>
 			</section>

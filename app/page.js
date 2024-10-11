@@ -77,13 +77,11 @@ export default function Home() {
 						by using a safe, non-invasive patented device to re- introduce the
 						frequencies to 16 acupuncture points across the body.
 					</p>
-					<div>
-						<Link
-							href='https://squareup.com/appointments/book/k5xabxhqoc83g2/L5QGYQW5FHNP6/start'
-							className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
+					<button className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
+						<Link href='https://squareup.com/appointments/book/k5xabxhqoc83g2/L5QGYQW5FHNP6/start'>
 							BOOK YOUR APPOINTMENT TODAY
 						</Link>
-					</div>
+					</button>
 				</div>
 				<div className='md:w-1/2 min-h-screen bg-cover bg-color4/75 bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1727247985/2_zyurnh.png)]'></div>
 			</section>
@@ -112,7 +110,7 @@ export default function Home() {
 										</li>
 									</ul>
 								</div>
-								<div>
+								<div className='mt-5 md:mt-0'>
 									<Link
 										href='/services'
 										className='py-2 px-5 mx-auto rounded-lg border border-3 border-color1 bg-color1 text-white text-base hover:bg-transparent hover:text-color1 ease-in-out duration-200'>

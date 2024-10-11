@@ -40,7 +40,7 @@ export default function NavBar() {
 				<Link href='/#services' className={linkStyle}>
 					SERVICES
 				</Link>
-				<Link href='/' className={linkStyle}>
+				<Link href='/forms' className={linkStyle}>
 					FORMS
 				</Link>
 				<Link href='/about' className={linkStyle}>
@@ -101,7 +101,7 @@ export default function NavBar() {
 								</Link>
 							</MenuItem>
 							<MenuItem>
-								<Link href='/' className={linkStyleMenu}>
+								<Link href='/forms' className={linkStyleMenu}>
 									FORMS
 								</Link>
 							</MenuItem>
@@ -111,7 +111,7 @@ export default function NavBar() {
 								</Link>
 							</MenuItem>
 							<MenuItem>
-								<Link href='/' className={linkStyleMenu}>
+								<Link href='/#contact' className={linkStyleMenu}>
 									CONTACT
 								</Link>
 							</MenuItem>

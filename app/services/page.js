@@ -89,6 +89,7 @@ export default function Services() {
 				<div className='my-5'>
 					<Link
 						href='https://squareup.com/appointments/book/k5xabxhqoc83g2/L5QGYQW5FHNP6/start'
+						target='_blank'
 						className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
 						Click here to setup your first visit!
 					</Link>
