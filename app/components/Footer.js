@@ -60,9 +60,9 @@ export default function Footer() {
 			</section>
 			<section className='bg-color3/60 p-2 text-center text-sm text-gray-800'>
 				<p>
-					<span className='font-bold'>Disclaimer: </span>B.I.E. practitioners
-					are not medical doctors and do not use medical diagnostic or treatment
-					procedures.
+					<strong className='font-bold'>Disclaimer: </strong>B.I.E.
+					practitioners are <strong className='font-bold'>not </strong>medical
+					doctors and do not use medical diagnostic or treatment procedures.
 				</p>
 			</section>
 			<section className='bg-color1 text-white justify-center pb-5'>
