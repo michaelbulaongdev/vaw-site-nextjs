@@ -1,6 +1,5 @@
 'use client';
 
-import {CldImage} from 'next-cloudinary';
 import Link from 'next/link';
 
 export default function Forms() {
@@ -63,6 +62,18 @@ export default function Forms() {
 							</Link>
 						</button>
 					</div>
+				</div>
+			</section>
+			<section>
+				<h2>BIE is new to you and have more questions?</h2>
+				<div>
+					<p>
+						You’re in luck! I LOVE talking about this stuff and learning with
+						you.
+					</p>
+					<button className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
+						<Link href='/contact'>Send me ALL your questions!</Link>
+					</button>
 				</div>
 			</section>
 		</main>

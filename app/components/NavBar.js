@@ -46,10 +46,10 @@ export default function NavBar() {
 				<Link href='/about' className={linkStyle}>
 					ABOUT
 				</Link>
-				<Link href='/#contact' className={linkStyle}>
+				<Link href='/contact' className={linkStyle}>
 					CONTACT
 				</Link>
-				<Link href='/' className={linkStyle}>
+				<Link href='/faq' className={linkStyle}>
 					FAQ
 				</Link>
 				<div className='hidden lg:block'>
@@ -111,12 +111,12 @@ export default function NavBar() {
 								</Link>
 							</MenuItem>
 							<MenuItem>
-								<Link href='/#contact' className={linkStyleMenu}>
+								<Link href='/contact' className={linkStyleMenu}>
 									CONTACT
 								</Link>
 							</MenuItem>
 							<MenuItem>
-								<Link href='/' className={linkStyleMenu}>
+								<Link href='/faq' className={linkStyleMenu}>
 									FAQ
 								</Link>
 							</MenuItem>

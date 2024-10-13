@@ -16,19 +16,12 @@ import EmailSVG from '../assets/email.svg';
 export default function Footer() {
 	return (
 		<footer id='contact'>
-			<section className='bg-color3/50 p-2 text-center text-sm text-gray-800'>
-				<p>
-					<span className='font-bold'>Disclaimer: </span>B.I.E. practitioners
-					are not medical doctors and do not use medical diagnostic or treatment
-					procedures.
-				</p>
-			</section>
-			<section className='p-10 bg-color4/10'>
+			<section className='p-10 bg-color3/10'>
 				<p className='text-color1 font-bold text-center md:text-left'>
 					Follow us on Instagram!
 				</p>
 				<Link
-					className='mt-3 flex flex-col md:flex-row md:space-x-1 border'
+					className='mt-3 flex flex-col md:flex-row md:space-x-1'
 					href='https://www.instagram.com/valleyallergywellness/'
 					target='_blank'>
 					<CldImage
@@ -64,6 +57,13 @@ export default function Footer() {
 						className='hidden md:block md:w-1/4 object-scale-down mx-auto'
 					/>
 				</Link>
+			</section>
+			<section className='bg-color3/60 p-2 text-center text-sm text-gray-800'>
+				<p>
+					<span className='font-bold'>Disclaimer: </span>B.I.E. practitioners
+					are not medical doctors and do not use medical diagnostic or treatment
+					procedures.
+				</p>
 			</section>
 			<section className='bg-color1 text-white justify-center pb-5'>
 				<div className='grid grid-flow-row md:grid-flow-col font-light mx-auto'>

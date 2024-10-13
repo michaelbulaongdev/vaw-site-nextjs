@@ -18,7 +18,7 @@ export default function Home() {
 					</p>
 					<div className='px-5'>
 						<Link
-							href='/'
+							href='/theory-behind-bie'
 							className='py-2 px-5 rounded-lg border border-3 border-white bg-black/10 text-white text-lg hover:bg-white hover:text-color5 ease-in-out duration-200'>
 							Learn More About B.I.E.
 						</Link>
@@ -181,7 +181,7 @@ export default function Home() {
 					</p>
 				</div>
 			</section>
-			<section className='bg-color2/90 text-white text-center py-10'>
+			<section className='bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1728055039/AdobeStock_85532144_fuq6m0.jpg)] text-white text-center py-10'>
 				<h2 className='font2 text-white text-5xl lg:text-6xl text-center p-5'>
 					Client Love
 				</h2>
