@@ -96,7 +96,7 @@ export default function Home() {
 					</h2>
 					<div className='flex flex-col space-y-10 md:space-y-0 md:flex-row md:divide-x'>
 						<div className='md:w-1/2'>
-							<div className='flex flex-col max-w-xs h-full mx-auto bg-white/90 rounded-2xl p-7 justify-between'>
+							<div className='flex flex-col max-w-xs h-full mx-auto bg-white/90 rounded-2xl p-7 justify-between shadow-lg'>
 								<div className='space-y-5'>
 									<h3 className='text-color1 text-2xl font2 font-bold'>
 										INITIAL VISIT
@@ -122,7 +122,7 @@ export default function Home() {
 							</div>
 						</div>
 						<div className='md:w-1/2'>
-							<div className='max-w-xs h-full mx-auto bg-white/90 rounded-2xl p-7 space-y-5'>
+							<div className='max-w-xs h-full mx-auto bg-white/90 rounded-2xl p-7 space-y-5 shadow-lg'>
 								<h3 className='text-color1 text-2xl font2 font-bold'>
 									FOLLOW-UP VISITS
 								</h3>
