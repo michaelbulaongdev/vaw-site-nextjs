@@ -13,7 +13,7 @@ import {
 export default function FAQ() {
 	return (
 		<main className='flex flex-col'>
-			<section className='flex flex-col p-5 md:py-16 md:flex-row bg-gradient-to-b from-transparent to-color1/30 to-90%'>
+			<section className='flex flex-col p-5 md:py-16 md:flex-row bg-gradient-to-b from-transparent to-color3/50'>
 				<div className='flex md:w-1/2 md:pr-10 min-h-64'>
 					<h1 className='font2 text-5xl text-color1 text-center md:text-right'>
 						Frequently Asked Questions
