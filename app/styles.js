@@ -15,3 +15,6 @@ export const faqDisclosureChevron = 'size-5 group-data-[open]:rotate-180';
 export const faqDisclosurePanel = 'p-5 flex flex-col space-y-3';
 
 export const theoryBieP = 'max-w-2xl mx-auto bg-color2/10 p-5 md:p-10';
+
+export const formsButton =
+	'uppercase py-2 px-5 rounded-lg border border-3 border-color1 bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200';
