@@ -20,12 +20,15 @@ html {
 	scroll-behavior: smooth;
 }
 
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	color: var(--color2);
+	color: var(--color1);
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
 }
 
 .font2 {

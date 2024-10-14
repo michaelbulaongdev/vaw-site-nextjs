@@ -6,3 +6,10 @@ export const linkStyleMenu =
 
 export const buttonStyle1 =
 	'p-3 rounded-md border border-color2 bg-color2 text-white hover:bg-color5 hover:text-color2 ease-in-out duration-200';
+
+export const faqDisclosureButton =
+	'group flex flex-row space-x-2 text-xl hover:text-color3';
+
+export const faqDisclosureChevron = 'size-5 group-data-[open]:rotate-180';
+
+export const faqDisclosurePanel = 'p-5 flex flex-col space-y-3';
