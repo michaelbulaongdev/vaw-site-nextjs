@@ -3,18 +3,30 @@
 import {CldImage} from 'next-cloudinary';
 import Link from 'next/link';
 
+import {theoryBieP} from '../styles';
+
 export default function TheoryBIE() {
 	return (
 		<main className='flex flex-col'>
-			<section className=''>
-				<p>“Everything in Life is Vibration”</p>
-				<p>- Albert Einstein</p>
+			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1728055039/AdobeStock_85532144_fuq6m0.jpg)] py-10 md:py-16'>
+				<p className='mx-auto text-center text-white text-4xl'>
+					“Everything in Life is Vibration”
+				</p>
+				<p className='text-center text-white text-lg italic'>
+					- Albert Einstein
+				</p>
 			</section>
-			<section>
-				<h1>The Theory Behind</h1>
-				<h2>BIE</h2>
-				<h3>Bioenergetic Intolerance Elimination</h3>
-				<p>
+			<section className='flex flex-col space-y-5 p-5 md:p-10 bg-gradient-to-b from-transparent to-color3/30 text-lg'>
+				<div className='md:mx-10 my-5 rounded-3xl py-10 bg-gradient-to-b from-color4 to-color3'>
+					<h1 className='text-3xl text-center font-normal'>
+						The Theory Behind
+					</h1>
+					<h2 className='py-3 font2 text-7xl text-center font-bold'>BIE</h2>
+					<h3 className='pb-5 text-2xl md:text-4xl uppercase text-center font-normal'>
+						Bioenergetic Intolerance Elimination
+					</h3>
+				</div>
+				<p className='max-w-2xl mx-auto bg-color2/10 p-5 md:p-10'>
 					The Law of Vibration states that everything (every atom, object, and
 					living thing) in the universe is in a constant state of movement. We
 					refer to these movements as “vibration” and the speed or rate at which
@@ -28,13 +40,11 @@ export default function TheoryBIE() {
 					energy associated with it can cause changes in your cells, which can
 					ultimately affect how the body functions.
 				</p>
-				<div>
-					<p>
-						Vital life force energy (bioenergy) fills every cell within the
-						human body.
-					</p>
-				</div>
-				<p>
+				<strong className='bg-color2/90 text-white text-2xl mx-auto max-w-2xl p-10'>
+					Vital life force energy (bioenergy) fills every cell within the human
+					body.
+				</strong>
+				<p className={theoryBieP}>
 					Every organ and major region in the body requires energy in order to
 					function. Energy comes from the nutrients of the food we consume and
 					from free-flowing blood. Energy controls every metabolic process,
@@ -48,7 +58,7 @@ export default function TheoryBIE() {
 					work solely with the body&apos;s hardware and overlook the importance
 					of working with the body&apos;s software.
 				</p>
-				<p>
+				<p className={theoryBieP}>
 					Pathways, known as meridians, allow energetic signals to circulate
 					continuously throughout the body. In Traditional Chinese Medicine
 					(TCM), a meridian or “Jing Lou” is a channel through which “Qi” (life
@@ -60,7 +70,7 @@ export default function TheoryBIE() {
 					points along the meridians interact with, connect to, and can be used
 					to affect, virtually every organ, system and part of the body.
 				</p>
-				<p>
+				<p className={theoryBieP}>
 					Every substance in the universe vibrates with its own unique
 					vibrational frequency referred to as an electromagnetic fingerprint or
 					“signature.” The human body has an optimal frequency that occurs when
@@ -81,13 +91,11 @@ export default function TheoryBIE() {
 					can enter cells through the cell membrane and build up internally,
 					thereby, altering the cell&apos;s balance.
 				</p>
-				<div>
-					<p>
-						During periods of stress, be it physical or emotional, the cell’s
-						state of vulnerability to discordant frequencies increases.
-					</p>
-				</div>
-				<p>
+				<strong className='bg-color2/90 text-white text-2xl mx-auto max-w-2xl p-10'>
+					During periods of stress, be it physical or emotional, the cell’s
+					state of vulnerability to discordant frequencies increases.
+				</strong>
+				<p className={theoryBieP}>
 					Any substance that the body is exposed to when undergoing a period of
 					stress will be “blocked” in order to avoid harmful exposure of it in
 					the future. In other words, the body will lose the ability to properly
@@ -100,21 +108,20 @@ export default function TheoryBIE() {
 					isn’t), exposure to that stressor produces an unwanted response and
 					symptoms appear.
 				</p>
-				<h3>
+				<strong className='text-4xl text-white md:mx-10 p-5 md:p-16 bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1728433184/pexels-suzyhazelwood-2382325_idcwu7.jpg)]'>
 					BIE uses a patented modality to assist the body and re-program its
 					“software” to recognize the stressor.
-				</h3>
-
-				<div>
+				</strong>
+				<div className='flex flex-col lg:flex-row'>
 					<CldImage
 						width='600'
 						height='800'
 						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728434869/DSC07477_hmpzmq.jpg'
 						sizes='100vw'
 						alt='bie explained'
-						className=''
+						className='lg:w-1/2 lg:px-16 object-scale-down max-h-96 mx-auto'
 					/>
-					<p>
+					<p className='bg-color2/10 p-10 m-auto'>
 						A low electronic frequency is directed onto various acupressure
 						points (without the use of needles) to stimulate and clear any
 						blockages in its pathways. While the blockages are clearing, the
@@ -124,8 +131,8 @@ export default function TheoryBIE() {
 						no longer produce adverse reactions.
 					</p>
 				</div>
-				<div>
-					<p>
+				<div className='flex flex-col lg:flex-row'>
+					<p className='bg-color2/10 p-10 m-auto'>
 						It is important to understand that BIE does not increase the
 						body&apos;s tolerance level to a given substance, nor does it alter
 						the cell’s biological functioning in any way. It simply reintroduces
@@ -141,19 +148,21 @@ export default function TheoryBIE() {
 						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728434869/DSC07099_gdbfyk.jpg'
 						sizes='100vw'
 						alt='bie explained'
-						className=''
+						className='lg:w-1/2 lg:px-16 object-scale-down max-h-96 mx-auto'
 					/>
 				</div>
 			</section>
-			<secion>
-				<h3>Ready to see BIE in practice?</h3>
+			<secion className='flex flex-col md:flex-row p-5 text-center space-y-5 items-center'>
+				<h3 className='md:w-2/5 text-2xl md:text-4xl text-center md:text-right'>
+					Ready to see BIE in practice?
+				</h3>
 				<CldImage
 					width='300'
 					height='300'
 					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728860564/arrow-removebg_npck9y.png'
 					sizes='100vw'
 					alt='arrow'
-					className=''
+					className='hidden md:block'
 				/>
 				<button className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
 					<Link href='/contact'>YES! I CAN&apos;T WAIT!</Link>

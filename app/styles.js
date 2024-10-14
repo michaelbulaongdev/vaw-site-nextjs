@@ -13,3 +13,5 @@ export const faqDisclosureButton =
 export const faqDisclosureChevron = 'size-5 group-data-[open]:rotate-180';
 
 export const faqDisclosurePanel = 'p-5 flex flex-col space-y-3';
+
+export const theoryBieP = 'max-w-2xl mx-auto bg-color2/10 p-5 md:p-10';
