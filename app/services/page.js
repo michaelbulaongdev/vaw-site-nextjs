@@ -6,34 +6,38 @@ import Link from 'next/link';
 export default function Services() {
 	return (
 		<main className='flex flex-col'>
-			<section className=''>
-				<h2>When working with me, you can expect…</h2>
-				<ul>
+			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1726006464/pexels-jplenio-1423601_bsdnb4.jpg)] p-10'>
+				<h2 className='bg-white/50 text-color2 mx-auto p-5 text-4xl text-center rounded-tl-full rounded-br-full'>
+					When working with me, you can expect…
+				</h2>
+				<ul className='text-2xl max-w-2xl mx-auto text-left space-y-7 p-10 mt-10 bg-white/50 italic'>
 					<li>
-						A safe, relaxing environment for you to share your story, health
+						► A safe, relaxing environment for you to share your story, health
 						challenges, and goals
 					</li>
 					<li>
-						Together we will identify the stressors that are causing you to have
-						negative reactions
+						► Together we will identify the stressors that are causing you to
+						have negative reactions
 					</li>
 					<li>
-						I’ll use a gentle, non-invasive patented device to bring balance to
-						your body and relieve you of your symptoms
+						► I’ll use a gentle, non-invasive patented device to bring balance
+						to your body and relieve you of your symptoms
 					</li>
 				</ul>
 			</section>
-			<section>
-				<h2>
+			<section className='flex flex-col lg:flex-row py-10'>
+				<h2 className='p-10 text-center lg:text-right text-3xl lg:w-2/5'>
 					Let me take you through what an initial visit would look like with me!
 				</h2>
-				<video width='720' height='480' controls preload='none'>
-					<source src='/path/to/video.mp4' type='video/mp4' />
-					<track
-						src='/path/to/captions.vtt'
-						kind='subtitles'
-						srcLang='en'
-						label='English'
+				<video
+					className='mx-auto'
+					width='720'
+					height='480'
+					controls
+					preload='none'>
+					<source
+						src='https://res.cloudinary.com/dx97fht5v/video/upload/v1728901083/what-to-expect_o2mwag.mp4'
+						type='video/mp4'
 					/>
 					Your browser does not support the video tag.
 				</video>
