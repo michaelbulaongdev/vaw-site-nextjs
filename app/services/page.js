@@ -10,7 +10,7 @@ export default function Services() {
 				<h2 className='bg-white/50 text-color2 mx-auto p-5 text-3xl lg:text-4xl text-center rounded-tl-3xl rounded-br-3xl lg:rounded-tl-full lg:rounded-br-full'>
 					When working with me, you can expect…
 				</h2>
-				<ul className='text-xl md:text-2xl max-w-2xl mx-auto text-left space-y-7 p-5 md:p-10 mt-10 bg-white/50 italic'>
+				<ul className='text-lg md:text-2xl max-w-2xl mx-auto text-left space-y-7 p-5 md:p-10 mt-5 md:mt-10 bg-white/50 italic'>
 					<li>
 						► A safe, relaxing environment for you to share your story, health
 						challenges, and goals
@@ -25,7 +25,7 @@ export default function Services() {
 					</li>
 				</ul>
 			</section>
-			<section className='flex flex-col lg:flex-row py-5 md:py-10 px-5'>
+			<section className='flex flex-col lg:flex-row py-5 md:py-10 px-5 bg-color4/10'>
 				<h2 className='p-10 text-center lg:text-right text-2xl md:text-3xl lg:w-2/5'>
 					Let me take you through what an initial visit would look like with me!
 				</h2>
@@ -43,17 +43,17 @@ export default function Services() {
 					Your browser does not support the video tag.
 				</video>
 			</section>
-			<section>
-				<div>
-					<h2>
-						Can you imagine this transformation for yourself or a loved one?
-					</h2>
-				</div>
-				<div>
-					<div>
-						<h3>before</h3>
-						<h4>You’re at a loss battling one or more of the following:</h4>
-						<ul>
+			<section className='p-5 lg:p-10 bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1728055039/AdobeStock_85532144_fuq6m0.jpg)]'>
+				<h2 className='text-white text-2xl md:text-4xl text-center font-normal italic'>
+					Can you imagine this transformation for yourself or a loved one?
+				</h2>
+				<div className='flex flex-col md:flex-row'>
+					<div className='md:w-1/2 bg-white/70 m-0 my-5 md:m-5 p-5 rounded-xl'>
+						<h3 className='uppercase text-2xl'>before</h3>
+						<h4 className='text-lg italic my-5'>
+							You’re at a loss battling one or more of the following:
+						</h4>
+						<ul className='mx-5 space-y-2'>
 							<li>Hay Fever and Seasonal Allergies</li>
 							<li>Headaches or Migraines</li>
 							<li>Indigestion (bloating, constipation, diarrhea)</li>
@@ -66,10 +66,12 @@ export default function Services() {
 							<li>Arthritis and Joint Pain</li>
 						</ul>
 					</div>
-					<div>
-						<h3>after</h3>
-						<h4>You’ll regain control over your health and have:</h4>
-						<ul>
+					<div className='md:w-1/2 bg-white/70 m-0 my-5 md:m-5 p-5 rounded-xl'>
+						<h3 className='uppercase text-2xl'>after</h3>
+						<h4 className='text-lg italic my-5'>
+							You’ll regain control over your health and have:
+						</h4>
+						<ul className='mx-5 space-y-2'>
 							<li>Drug-free relief</li>
 							<li>Optimal digestion</li>
 							<li>Freedom to enjoy all foods</li>
@@ -82,16 +84,18 @@ export default function Services() {
 					</div>
 				</div>
 			</section>
-			<section>
-				<h2>Payment</h2>
-				<p>We accept cash, credit/debit cards, and FSA/HSA cards.</p>
+			<section className='bg-color4/50 p-10 space-y-5'>
+				<h2 className='text-3xl'>Payment</h2>
+				<p className='text-lg'>
+					We accept cash, credit/debit cards, and FSA/HSA cards.
+				</p>
 			</section>
-			<section>
-				<p>
+			<section className='bg-color5 p-10 space-y-5 text-white flex flex-col md:flex-row'>
+				<p className='md:w-1/2 text-xl md:text-3xl'>
 					Has everything you read about BIE checking all the boxes for a new
 					path towards relief?
 				</p>
-				<button className='my-5 py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
+				<button className='my-5 mx-auto py-2 px-5 rounded-lg border border-3 border-color1 bg-color1 text-white text-lg hover:bg-white hover:border-color hover:text-color1 ease-in-out duration-200'>
 					<Link
 						href='https://squareup.com/appointments/book/k5xabxhqoc83g2/L5QGYQW5FHNP6/start'
 						target='_blank'
