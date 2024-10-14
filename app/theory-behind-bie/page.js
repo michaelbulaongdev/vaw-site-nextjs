@@ -17,7 +17,7 @@ export default function TheoryBIE() {
 				</p>
 			</section>
 			<section className='flex flex-col space-y-5 p-5 md:p-10 bg-gradient-to-b from-transparent to-color3/30 text-lg'>
-				<div className='md:mx-10 my-5 rounded-3xl py-10 bg-gradient-to-b from-color4 to-color3'>
+				<div className='md:mx-10 my-5 rounded-3xl py-10 bg-gradient-to-b from-white to-color4'>
 					<h1 className='text-3xl text-center font-normal'>
 						The Theory Behind
 					</h1>
