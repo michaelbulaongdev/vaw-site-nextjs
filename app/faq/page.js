@@ -21,8 +21,10 @@ export default function FAQ() {
 				</div>
 				<div className='md:w-1/2 flex flex-col space-y-3 p-2'>
 					<Disclosure>
-						<DisclosureButton className='group flex flex-row space-x-2 text-xl hover:text-color3'>
-							<span>What can I expect at my first BIE session?</span>
+						<DisclosureButton className='group flex flex-row space-x-2 text-xl hover:text-color3 text-left'>
+							<span className='w-5/6'>
+								What can I expect at my first BIE session?
+							</span>
 							<ChevronDownIcon className='size-5 group-data-[open]:rotate-180' />
 						</DisclosureButton>
 						<DisclosurePanel className='p-5 flex flex-col space-y-3'>
@@ -55,7 +57,7 @@ export default function FAQ() {
 					<hr></hr>
 					<Disclosure>
 						<DisclosureButton className={faqDisclosureButton}>
-							<span>Are there any side effects?</span>
+							<span className='w-5/6'>Are there any side effects?</span>
 							<ChevronDownIcon className={faqDisclosureChevron} />
 						</DisclosureButton>
 						<DisclosurePanel className={faqDisclosurePanel}>
@@ -77,7 +79,9 @@ export default function FAQ() {
 					<hr></hr>
 					<Disclosure>
 						<DisclosureButton className={faqDisclosureButton}>
-							<span>How soon will I notice an improvement in my symptoms?</span>
+							<span className='w-5/6'>
+								How soon will I notice an improvement in my symptoms?
+							</span>
 							<ChevronDownIcon className={faqDisclosureChevron} />
 						</DisclosureButton>
 						<DisclosurePanel className={faqDisclosurePanel}>
@@ -102,7 +106,7 @@ export default function FAQ() {
 					<hr></hr>
 					<Disclosure>
 						<DisclosureButton className={faqDisclosureButton}>
-							<span>What about Anaphylactic Stressors?</span>
+							<span className='w-5/6'>What about Anaphylactic Stressors?</span>
 							<ChevronDownIcon className={faqDisclosureChevron} />
 						</DisclosureButton>
 						<DisclosurePanel className={faqDisclosurePanel}>
@@ -124,7 +128,9 @@ export default function FAQ() {
 					<hr></hr>
 					<Disclosure>
 						<DisclosureButton className={faqDisclosureButton}>
-							<span>How is BIE different from Acupuncture?</span>
+							<span className='w-5/6'>
+								How is BIE different from Acupuncture?
+							</span>
 							<ChevronDownIcon className={faqDisclosureChevron} />
 						</DisclosureButton>
 						<DisclosurePanel className={faqDisclosurePanel}>
@@ -140,7 +146,9 @@ export default function FAQ() {
 					<hr></hr>
 					<Disclosure>
 						<DisclosureButton className={faqDisclosureButton}>
-							<span>How do I prepare for my appointment?</span>
+							<span className='w-5/6'>
+								How do I prepare for my appointment?
+							</span>
 							<ChevronDownIcon className={faqDisclosureChevron} />
 						</DisclosureButton>
 						<DisclosurePanel className={faqDisclosurePanel}>

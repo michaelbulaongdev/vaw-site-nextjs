@@ -8,7 +8,7 @@ export const buttonStyle1 =
 	'p-3 rounded-md border border-color2 bg-color2 text-white hover:bg-color5 hover:text-color2 ease-in-out duration-200';
 
 export const faqDisclosureButton =
-	'group flex flex-row space-x-2 text-xl hover:text-color3';
+	'group flex flex-row space-x-2 text-xl hover:text-color3 text-left';
 
 export const faqDisclosureChevron = 'size-5 group-data-[open]:rotate-180';
 
