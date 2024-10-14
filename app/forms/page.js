@@ -74,7 +74,7 @@ export default function Forms() {
 					</button>
 				</div>
 			</section>
-			<section className='flex flex-col md:flex-row min-h-96'>
+			<section className='flex flex-col md:flex-row min-h-96 bg-gradient-to-b from-transparent to-color4/50'>
 				<h2 className='md:w-1/2 p-5 lg:p-20 text-4xl lg:text-5xl font2'>
 					BIE is new to you and have more questions?
 				</h2>
