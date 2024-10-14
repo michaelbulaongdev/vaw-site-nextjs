@@ -91,10 +91,10 @@ export default function Home() {
 				id='services'
 				className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1726006464/pexels-jplenio-1423601_bsdnb4.jpg)] flex flex-col md:flex-row'>
 				<div className='py-16 px-5 text-center mx-auto w-full bg-black/10'>
-					<h2 className='px-10 mb-10 font2 text-white text-5xl'>
+					<h2 className='px-5 md:px-10 mb-10 font2 text-white text-4xl md:text-5xl'>
 						OUR SERVICES
 					</h2>
-					<div className='flex flex-col space-y-10 md:space-y-0 md:flex-row md:divide-x'>
+					<div className='flex flex-col space-y-10 md:space-y-0 md:space-x-5 lg:space-x-0 md:flex-row lg:divide-x'>
 						<div className='md:w-1/2'>
 							<div className='flex flex-col max-w-xs h-full mx-auto bg-white/90 rounded-2xl p-7 justify-between shadow-lg'>
 								<div className='space-y-5'>
@@ -104,7 +104,7 @@ export default function Home() {
 									<p className='bg-color1 text-white text-xl w-24 mx-auto p-1 rounded-3xl'>
 										$185
 									</p>
-									<ul className='list-disc mx-14 text-left'>
+									<ul className='list-disc mx-5 lg:mx-14 text-left'>
 										<li>1 - 1.5 hours</li>
 										<li>Muscle testing for homeostatic imbalances</li>
 										<li>
@@ -129,7 +129,7 @@ export default function Home() {
 								<p className='bg-color1 text-white text-xl w-24 mx-auto p-1 rounded-3xl'>
 									$85
 								</p>
-								<ul className='list-disc mx-14 text-left'>
+								<ul className='list-disc mx-5 lg:mx-14 text-left'>
 									<li>30-40 minutes</li>
 									<li>Re-testing of the first set of stressors</li>
 									<li>Testing of any additional stressors</li>
@@ -153,14 +153,14 @@ export default function Home() {
 					</p>
 				</div>
 			</section>
-			<section className='flex flex-col md:flex-row'>
+			<section className='flex flex-col md:flex-row p-5'>
 				<CldImage
 					width='600'
 					height='800'
 					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009247/dchan-1_dxsjdf.png'
 					sizes='100vw'
 					alt='profile photo of deborah'
-					className='md:w-1/2 lg:w-2/5 p-10 object-scale-down mx-auto'
+					className='w-full p-5 object-scale-down mx-auto'
 				/>
 				<div className='md:w-1/2 lg:w-3/5 p-10 flex flex-col justify-center lg:px-20 xl:px-32'>
 					<CldImage
