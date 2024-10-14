@@ -14,7 +14,8 @@ export default function Forms() {
 							Simple click on each of the boxes and fill them out online.
 						</h2>
 						<h2 className='font-normal text-2xl'>
-							Complete all <strong>4</strong>&nbsp;forms <strong>prior</strong>
+							Complete all <strong>4</strong>&nbsp;forms{' '}
+							<strong className='bg-color3/30'>prior</strong>
 							&nbsp;to your first session!
 						</h2>
 					</div>
@@ -80,8 +81,9 @@ export default function Forms() {
 				</h2>
 				<div className='md:w-1/2 p-5 lg:p-20'>
 					<p className='text-3xl lg:text-4xl mb-5'>
-						You’re in luck! I LOVE talking about this stuff and learning with
-						you.
+						You’re in luck! I&nbsp;
+						<strong className='font2 text-color1 bg-color3/50'>LOVE </strong>
+						talking about this stuff and learning with you.
 					</p>
 					<button className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
 						<Link href='/contact'>Send me ALL your questions!</Link>
