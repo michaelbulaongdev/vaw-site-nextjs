@@ -3,10 +3,7 @@ import Footer from "./components/Footer";
 import "./globals.css";
 
 export const metadata = {
-  title: {
-    template: "%s | Valley Allergy + Wellness",
-    default: "Valley Allergy + Wellness",
-  },
+  title: "Valley Allergy + Wellness",
   description: "Root cause solutions for everyday health problems",
 };
 
