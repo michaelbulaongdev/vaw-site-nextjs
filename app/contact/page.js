@@ -1,11 +1,9 @@
-'use client';
+import ContactPage from "./ContactPage";
 
-import Link from 'next/link';
+export const metadata = {
+  title: "Contact | Valley Allergy + Wellness",
+};
 
 export default function Contact() {
-	return (
-		<main className='flex flex-col'>
-			<section className=''></section>
-		</main>
-	);
+  return <ContactPage />;
 }
