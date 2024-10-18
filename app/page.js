@@ -10,7 +10,7 @@ import {homeList1} from './textContent';
 export default function Home() {
 	return (
 		<main className='flex flex-col'>
-			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1728055039/AdobeStock_85532144_fuq6m0.jpg)] flex flex-col md:flex-row'>
+			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1728055039/AdobeStock_85532144_fuq6m0.jpg)] flex lg:min-h-[80vh]'>
 				<div className='py-36 text-center w-screen bg-black/10'>
 					<h1 className='px-10 font2 text-white text-5xl lg:text-7xl max-w-5xl mx-auto leading-tight'>
 						Relief starts here
