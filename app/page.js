@@ -89,102 +89,38 @@ export default function Home() {
 				</div>
 				<div className='lg:w-1/2 min-h-96 md:min-h-screen bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729214212/DSC07429_v2gcxv.jpg)]'></div>
 			</section>
-			<section
-				id='services'
-				className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1726006464/pexels-jplenio-1423601_bsdnb4.jpg)] flex flex-col md:flex-row'>
-				<div className='py-16 px-5 text-center mx-auto w-full bg-black/10'>
-					<h2 className='px-5 md:px-10 mb-10 font2 text-white text-4xl md:text-5xl'>
-						OUR SERVICES
-					</h2>
-					<div className='flex flex-col space-y-10 md:space-y-0 md:space-x-5 lg:space-x-0 md:flex-row lg:divide-x max-w-screen-2xl mx-auto'>
-						<div className='md:w-1/2'>
-							<div className='flex flex-col max-w-xs h-full mx-auto bg-white/90 rounded-2xl p-7 justify-between shadow-lg'>
-								<div className='space-y-5'>
-									<h3 className='text-color1 text-2xl font2 font-bold'>
-										INITIAL VISIT
-									</h3>
-									<p className='bg-color1 text-white text-xl w-24 mx-auto p-1 rounded-3xl'>
-										$185
-									</p>
-									<ul className='list-disc mx-5 lg:mx-14 text-left'>
-										<li>1 - 1.5 hours</li>
-										<li>Muscle testing for homeostatic imbalances</li>
-										<li>
-											Balancing of up to 4 different categories of stressors
-										</li>
-									</ul>
-								</div>
-								<div className='mt-5 md:mt-0'>
-									<Link
-										href='/services'
-										className='py-2 px-5 mx-auto rounded-lg border border-3 border-color1 bg-color1 text-white text-base hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
-										LEARN MORE
-									</Link>
-								</div>
-							</div>
-						</div>
-						<div className='md:w-1/2'>
-							<div className='max-w-xs h-full mx-auto bg-white/90 rounded-2xl p-7 space-y-5 shadow-lg'>
-								<h3 className='text-color1 text-2xl font2 font-bold'>
-									FOLLOW-UP VISITS
-								</h3>
-								<p className='bg-color1 text-white text-xl w-24 mx-auto p-1 rounded-3xl'>
-									$85
-								</p>
-								<ul className='list-disc mx-5 lg:mx-14 text-left'>
-									<li>30-40 minutes</li>
-									<li>Re-testing of the first set of stressors</li>
-									<li>Testing of any additional stressors</li>
-									<li>
-										Modification in plan and determination of additional
-										sessions
-									</li>
-								</ul>
-								<div>
-									<Link
-										href='/services'
-										className='py-2 px-5 mx-auto rounded-lg border border-3 border-color1 bg-color1 text-white text-base hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
-										LEARN MORE
-									</Link>
-								</div>
-							</div>
-						</div>
+			<section className='bg-color3/10'>
+				<div className='flex flex-col md:flex-row p-5 max-w-screen-2xl mx-auto'>
+					<div className='md:w-1/2'>
+						<CldImage
+							width='600'
+							height='800'
+							src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009247/dchan-1_dxsjdf.png'
+							sizes='100vw'
+							alt='profile photo of deborah'
+							className='p-5 object-scale-down mx-auto'
+						/>
 					</div>
-					<p className='mx-10 pt-10 text-white text-2xl'>
-						Ask about our packaged service bundles!
-					</p>
-				</div>
-			</section>
-			<section className='flex flex-col md:flex-row p-5 max-w-screen-2xl mx-auto'>
-				<div className='md:w-1/2'>
-					<CldImage
-						width='600'
-						height='800'
-						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009247/dchan-1_dxsjdf.png'
-						sizes='100vw'
-						alt='profile photo of deborah'
-						className='p-5 object-scale-down mx-auto'
-					/>
-				</div>
-				<div className='md:w-1/2 lg:w-3/5 p-10 flex flex-col justify-center lg:px-20 xl:px-32'>
-					<CldImage
-						width='50'
-						height='50'
-						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728259824/quotes_jjoofq.png'
-						sizes='100vw'
-						alt='quotation mark'
-						className='mx-auto'
-					/>
-					<p className='lg:text-lg my-5 lg:my-10 text-center text-color1'>
-						My mission at Valley Allergy + Wellness is to assist YOU in your
-						pursuit for health and wellness and to empower you to connect to
-						yourself - in mind, body, and spirit and THRIVE! My goal is to
-						provide you with a safe and welcoming space to share your story,
-						find healing, and give you hope for tomorrow.
-					</p>
-					<p className='text-sm text-center text-color1 bg-gray-200'>
-						— <span className='font2'>DEBORAH CHAN</span>, Owner
-					</p>
+					<div className='md:w-1/2 lg:w-3/5 p-10 flex flex-col justify-center lg:px-20 xl:px-32'>
+						<CldImage
+							width='50'
+							height='50'
+							src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728259824/quotes_jjoofq.png'
+							sizes='100vw'
+							alt='quotation mark'
+							className='mx-auto'
+						/>
+						<p className='lg:text-lg my-5 lg:my-10 text-center text-color1'>
+							My mission at Valley Allergy + Wellness is to assist YOU in your
+							pursuit for health and wellness and to empower you to connect to
+							yourself - in mind, body, and spirit and THRIVE! My goal is to
+							provide you with a safe and welcoming space to share your story,
+							find healing, and give you hope for tomorrow.
+						</p>
+						<p className='text-sm text-center text-color1 bg-gray-200'>
+							— <span className='font2'>DEBORAH CHAN</span>, Owner
+						</p>
+					</div>
 				</div>
 			</section>
 			<section className='bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1728055039/AdobeStock_85532144_fuq6m0.jpg)] text-white text-center py-10'>
