@@ -16,7 +16,7 @@ export default function NavBar() {
 	return (
 		<header
 			id='top'
-			className='flex flex-row justify-between py-1 px-5 bg-transparent'>
+			className='flex flex-row justify-between py-1 px-5 bg-transparent max-w-screen-2xl mx-auto'>
 			<Link href='/'>
 				<Image
 					src={VAWLogo}

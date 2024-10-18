@@ -15,48 +15,50 @@ import EmailSVG from '../assets/email.svg';
 
 export default function Footer() {
 	return (
-		<footer id='contact'>
-			<section className='p-10 bg-color3/10'>
-				<p className='text-color1 font-bold text-center md:text-left'>
-					Follow us on Instagram!
-				</p>
-				<Link
-					className='mt-3 flex flex-col md:flex-row md:space-x-1'
-					href='https://www.instagram.com/valleyallergywellness/'
-					target='_blank'>
-					<CldImage
-						width='300'
-						height='300'
-						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009247/insta-1_xoczzf.png'
-						sizes='100vw'
-						alt='instagram post thumbnail'
-						className='md:w-1/4 object-scale-down mx-auto'
-					/>
-					<CldImage
-						width='300'
-						height='300'
-						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009248/insta-2_ckbznb.png'
-						sizes='100vw'
-						alt='instagram post thumbnail'
-						className='hidden md:block md:w-1/4 object-scale-down mx-auto'
-					/>
-					<CldImage
-						width='300'
-						height='300'
-						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009246/insta-3_ej42fj.png'
-						sizes='100vw'
-						alt='instagram post thumbnail'
-						className='hidden md:block md:w-1/4 object-scale-down mx-auto'
-					/>
-					<CldImage
-						width='300'
-						height='300'
-						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728269781/insta-4_fn7rls.png'
-						sizes='100vw'
-						alt='instagram post thumbnail'
-						className='hidden md:block md:w-1/4 object-scale-down mx-auto'
-					/>
-				</Link>
+		<footer id='contact' className=''>
+			<section className='bg-color3/10'>
+				<div className='p-10 max-w-screen-2xl mx-auto'>
+					<p className='text-color1 font-bold text-center md:text-left'>
+						Follow us on Instagram!
+					</p>
+					<Link
+						className='mt-3 flex flex-col md:flex-row md:space-x-1'
+						href='https://www.instagram.com/valleyallergywellness/'
+						target='_blank'>
+						<CldImage
+							width='300'
+							height='300'
+							src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009247/insta-1_xoczzf.png'
+							sizes='100vw'
+							alt='instagram post thumbnail'
+							className='md:w-1/4 object-scale-down mx-auto'
+						/>
+						<CldImage
+							width='300'
+							height='300'
+							src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009248/insta-2_ckbznb.png'
+							sizes='100vw'
+							alt='instagram post thumbnail'
+							className='hidden md:block md:w-1/4 object-scale-down mx-auto'
+						/>
+						<CldImage
+							width='300'
+							height='300'
+							src='https://res.cloudinary.com/dx97fht5v/image/upload/v1726009246/insta-3_ej42fj.png'
+							sizes='100vw'
+							alt='instagram post thumbnail'
+							className='hidden md:block md:w-1/4 object-scale-down mx-auto'
+						/>
+						<CldImage
+							width='300'
+							height='300'
+							src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728269781/insta-4_fn7rls.png'
+							sizes='100vw'
+							alt='instagram post thumbnail'
+							className='hidden md:block md:w-1/4 object-scale-down mx-auto'
+						/>
+					</Link>
+				</div>
 			</section>
 			<section className='bg-color3/60 p-2 text-center text-sm text-gray-800'>
 				<p>
@@ -66,7 +68,7 @@ export default function Footer() {
 				</p>
 			</section>
 			<section className='bg-color1 text-white justify-center pb-5'>
-				<div className='grid grid-flow-row md:grid-flow-col font-light mx-auto'>
+				<div className='grid grid-flow-row md:grid-flow-col font-light mx-auto max-w-screen-2xl'>
 					<div className='flex flex-col p-5 pb-0 mx-auto mb-0'>
 						<Link href='#top'>
 							<CldImage
