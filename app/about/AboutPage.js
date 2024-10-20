@@ -1,124 +1,129 @@
-"use client";
+'use client';
 
-import { CldImage } from "next-cloudinary";
-import Link from "next/link";
+import {CldImage} from 'next-cloudinary';
+import Link from 'next/link';
 
 export default function AboutPage() {
-  return (
-    <main className="flex flex-col">
-      <section className="flex flex-col md:flex-row bg-gradient-to-b from-transparent to-color4/50 p-5">
-        <div className="md:w-1/2">
-          <h1 className="font3 italic text-5xl xl:text-6xl text-center my-10">
-            Hi! I&apos;m Deborah!
-          </h1>
-          <h2 className="text-center font-normal text-xl">
-            Owner & Registered BioEnergetic
-          </h2>
-          <h2 className="text-center font-normal text-xl">
-            Intolerance Elimination Practitioner
-          </h2>
-          <hr className="border-color1 w-44 mx-auto my-10"></hr>
-          <p className="px-5 md:px-10 text-sm xl:text-lg">
-            My interest in health and wellness began shortly after my mom was
-            diagnosed with stage IV colon cancer. Her desire to pursue
-            alternative health treatments gave me an opportunity to learn more
-            about non-conventional treatments and ultimately lead me to obtain a
-            degree in Holistic Health and Wellness in 2007. My goal after
-            graduating was to open a health consulting business, however, not
-            only was I a recent graduate, but I was also newly engaged and
-            needing a stable income to pay for the upcoming wedding! I entered
-            the world of government work with a temporary position with the San
-            Joaquin County. A year later, I accepted a permanent position with
-            the State of California and had an awesome wedding!
-          </p>
-        </div>
-        <div className="md:w-1/2">
-          <CldImage
-            width="600"
-            height="800"
-            src="https://res.cloudinary.com/dx97fht5v/image/upload/v1728433190/DSC07767-1_mejhzi.jpg"
-            sizes="100vw"
-            alt="profile photo of deborah"
-            className="w-full p-5 md:p-10 object-scale-down mx-auto rounded-t-full"
-          />
-        </div>
-      </section>
-      <section className="bg-color4/50 px-10 md:px-16">
-        <h3 className="text-center font3 italic text-3xl md:text-4xl bg-color3/10 p-5 mb-10 md:mb-0 mt-10 xl:mt-0">
-          &quot;I saw a way for me to bring my passion for helping others and my
-          obsession with health into a place of purpose&quot;
-        </h3>
-      </section>
-      <section className="bg-gradient-to-b from-color4/50 to-transparent p-5 md:p-16 flex flex-col space-y-10">
-        <p className="text-sm md:text-lg md:w-2/3 bg-white/30 p-5 md:p-10 shadow-xl">
-          Working for the government has a LOT of great benefits… benefits that
-          are difficult to walk away from. The stability and steady stream of
-          income helped us purchase our first home, grow our family and pay for
-          two international adoptions. Little by little, the goals and dreams of
-          owning something of my own faded but I never lost my interest in
-          health. To be frank, I am downright OBSESSED with biohacking! I love
-          to read articles, listen to podcasts, and go down rabbit holes of
-          research to learn more about how to optimize my health and the health
-          of my family. My family’s history is quite significant for cancer. My
-          mom ultimately lost her battle with cancer in 2009. The pain of losing
-          my mom, having to learn how to be a mom without her left me with deep
-          wounds. My life’s goal following the loss was to NOT get cancer, to
-          not to leave this world and my children too early. It sounds a bit
-          morbid, but it was the driving factor for learning all that I could
-          about health so I could live a long and healthy life with my family.
-          I’d say that my health is my most expensive “hobby” as I am always
-          trying a new supplement or health modality whenever financially
-          possible!
-        </p>
-        <div className="flex flex-col md:flex-row">
-          <div className="md:w-1/3"></div>
-          <p className="text-sm md:text-lg md:w-2/3 bg-color5/10 p-5 md:p-10 shadow-xl">
-            While working for the State had its benefits, it also had its
-            challenges. The last 5 years of my career were the most difficult to
-            endure. I lacked passion and purpose in my work, something I deeply
-            desired for myself. I went through something I equated to a mid-life
-            crisis before finally deciding that I needed a change. In June of
-            2022, I took a leap of faith and quit! I didn’t know what the future
-            would hold, but I was trusting that God would be with me as I
-            figured it out. In pursuing yet another health modality for myself
-            (it’s my hobby, remember? 😊), I discovered BIE. I found BIE to be
-            such a powerful, yet gentle application that could provide relief
-            and healing to so many that I knew I had to learn more. I saw a way
-            for me to bring my passion for helping others and my obsession with
-            health into a place of purpose. And so began the resurrection of
-            dreams long forgotten and given up on! I became licensed and
-            registered as a BIE practitioner with the Institute of Natural
-            Health Technologies in November of 2022 and my practice Valley
-            Allergy + Wellness was born!
-          </p>
-        </div>
-      </section>
-      <section className="p-10">
-        <p className="text-lg md:text-2xl text-white bg-color2 p-5">
-          If you have gotten this far down in reading my story, first of all, I
-          want to say thank you, and second, I want to encourage you to never
-          give up on your goals and dreams. Whether you’re hoping for a new job,
-          a new house, a child, to overcome a health challenge, whatever it is…
-          believe that it CAN and WILL come to fruition!
-        </p>
-      </section>
-      <section className="p-10 text-center text-lg">
-        <p>
-          Thank you for your interest in BIE and for stopping by to learn more
-          about me and my story!
-        </p>
-        <button className="my-5 py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-sm md:text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200">
-          <Link href="/theory-behind-bie">Learn more about BIE</Link>
-        </button>
-        <CldImage
-          width="600"
-          height="400"
-          src="https://res.cloudinary.com/dx97fht5v/image/upload/v1728434869/DSC07030_qtffqu.jpg"
-          sizes="100vw"
-          alt="profile photo of deborah"
-          className="w-60 object-scale-down mx-auto rounded-full"
-        />
-      </section>
-    </main>
-  );
+	return (
+		<main className='flex flex-col max-w-screen-2xl mx-auto'>
+			<section className='flex flex-col lg:flex-row bg-color4/10'>
+				<div className='lg:w-1/2'>
+					<CldImage
+						width='1000'
+						height='1500'
+						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1729446649/DSC07776_zijztk.jpg'
+						sizes='100vw'
+						alt='profile photo of deborah'
+						className='w-full object-cover mx-auto'
+					/>
+				</div>
+				<div className='lg:w-1/2'>
+					<h1 className='font2 text-5xl xl:text-6xl text-center my-5'>
+						Meet Deborah
+					</h1>
+					<h2 className='text-center font-normal text-lg'>
+						Owner & Registered BioEnergetic
+					</h2>
+					<h2 className='text-center font-normal text-lg'>
+						Intolerance Elimination Practitioner
+					</h2>
+					<div className='border border-color1 rounded-xl p-5 m-5 xl:p-10 xl:m-10 space-y-5 text-color1'>
+						<p className='text-sm xl:text-base'>
+							Hi! I’m Deborah, and I’m so glad you’re here to learn more about
+							me and my journey with BIE!
+						</p>
+						<p className='text-sm xl:text-base'>
+							My passion for health and wellness began when my mom was diagnosed
+							with stage IV colon cancer. Her choice to explore alternative
+							treatments opened my eyes to the world of holistic health, and in
+							2007, I earned a degree in Holistic Health and Wellness. Although
+							my goal was to start my own health consulting business, life took
+							a different turn. I was a new graduate, engaged, and needing
+							stable income to help with the wedding, so I began a career in
+							government work with San Joaquin County, and subsequently with the
+							State of California. The steady income allowed us to buy our first
+							home, grow our family through international adoption. My husband
+							and I have two beautiful children adopted from South Korea.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section className='bg-color1 px-5 py-10'>
+				<h3 className='text-center text-white font-normal text-3xl md:text-4xl'>
+					&quot;I saw a way for me to bring my passion for helping others and my
+					obsession with health into a place of purpose&quot;
+				</h3>
+			</section>
+			<section className='bg-gradient-to-b from-color4/10 to-transparent p-5 md:p-16 flex flex-col space-y-10'>
+				<p className='text-sm md:text-lg md:w-2/3 bg-white/30 p-5 md:p-10 shadow-xl'>
+					The security of my government job provided numerous benefits and
+					opportunities to grow both professionally and personally. For the
+					first four years, I reviewed medical records for Social Security’s
+					Disability program, followed by 10 years of providing software
+					support. Although my career wasn’t directly related to alternative or
+					holistic health, my passion for health never faded. I’ve always been
+					deeply interested in biohacking, constantly immersing myself in
+					research, articles, and podcasts to optimize my health and that of my
+					family, particularly because of my family’s significant history with
+					cancer. After losing my mom in 2009, my personal mission became clear:
+					to live a long and healthy life and not let cancer define my story.
+					Health became my top priority—and my most invested hobby—as I
+					consistently explored new supplements and healing modalities.
+				</p>
+				<div className='flex flex-col md:flex-row'>
+					<div className='md:w-1/3'></div>
+					<p className='text-sm md:text-lg md:w-2/3 bg-color5/10 p-5 md:p-10 shadow-xl'>
+						Although I valued my government career, the last five years became
+						increasingly difficult as I found myself lacking passion and purpose
+						in my work. In June 2022, I took a leap of faith and resigned,
+						trusting that God would guide me toward a new path. During my
+						exploration of yet another health modality (as usual!), I discovered
+						BIE. I was immediately drawn to its powerful yet gentle approach to
+						healing and knew I had to learn more. I saw a way for me to bring my
+						passion for helping others and my obsession with health into a place
+						of purpose. This marked the revival of dreams I had once set aside.
+						In November 2022, I became a licensed and registered BIE
+						practitioner, and Valley Allergy + Wellness was born!
+					</p>
+				</div>
+			</section>
+			<section className='p-10'>
+				<p className='text-lg md:text-2xl text-white bg-color2 p-5'>
+					At Valley Allergy + Wellness, my mission is to support YOU on your
+					journey to health and wellness. I’m here to help you connect with
+					yourself—mind, body, and spirit—and provide a safe space where you can
+					share your story, find healing, and regain hope for the future.
+				</p>
+			</section>
+			<section className='p-10 text-center text-lg'>
+				<p>
+					Thank you for taking the time to read my story. Remember, no matter
+					what your goals or dreams are—whether it’s a new job, a child,
+					overcoming a health challenge—don’t give up. Believe that it CAN and
+					WILL happen!
+				</p>
+				<button className='my-5 py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-sm md:text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
+					<Link href='/theory-behind-bie'>Learn more about BIE</Link>
+				</button>
+				<CldImage
+					width='600'
+					height='400'
+					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728434869/DSC07030_qtffqu.jpg'
+					sizes='100vw'
+					alt='profile photo of deborah'
+					className='w-60 object-scale-down mx-auto rounded-full'
+				/>
+			</section>
+			<section>
+				<p>
+					Are you ready to embark on your own healing journey? Contact me today
+					to learn how Valley Allergy + Wellness can help you achieve lasting
+					wellness!
+				</p>
+				<button className='uppercase my-5 py-2 px-5 rounded-lg border border-3 border-color1 bg-color1 text-white text-sm md:text-lg hover:bg-white hover:text-color1 ease-in-out duration-200'>
+					<Link href='/contact'>contact me</Link>
+				</button>
+			</section>
+		</main>
+	);
 }
