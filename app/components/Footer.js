@@ -60,7 +60,7 @@ export default function Footer() {
 					</Link>
 				</div>
 			</section>
-			<section className='bg-color5/50 p-2 text-center text-sm text-gray-800'>
+			<section className='bg-color5/60 p-2 text-center text-sm text-gray-800'>
 				<p>
 					<strong className='font-bold'>Disclaimer: </strong>B.I.E.
 					practitioners are <strong className='font-bold'>not </strong>medical
