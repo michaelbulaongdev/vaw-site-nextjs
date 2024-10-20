@@ -49,14 +49,14 @@ export default function AboutPage() {
 				</div>
 			</section>
 			<section className='bg-color1 px-5 py-10'>
-				<h3 className='text-center text-white font-normal text-3xl md:text-4xl'>
+				<h3 className='text-center text-white font-normal text-2xl md:text-3xl'>
 					&quot;I saw a way for me to bring my passion for helping others and my
 					obsession with health into a place of purpose&quot;
 				</h3>
 			</section>
 			<section className='bg-color4/10 flex flex-col lg:flex-row'>
 				<div className='flex flex-col lg:w-1/2'>
-					<p className='text-sm md:text-lg p-5 md:p-10'>
+					<p className='text-sm md:text-lg p-5 md:p-10 text-color1'>
 						The security of my government job provided numerous benefits and
 						opportunities to grow both professionally and personally. For the
 						first four years, I reviewed medical records for Social Security’s
@@ -77,7 +77,7 @@ export default function AboutPage() {
 			<section className='bg-color4/10 flex flex-col-reverse lg:flex-row'>
 				<div className='lg:w-1/2 min-h-96 bg-cover bg-center bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729446649/DSC07030_khgopj.jpg)]'></div>
 				<div className='flex flex-col lg:w-1/2'>
-					<p className='text-sm md:text-lg p-5 md:p-10'>
+					<p className='text-sm md:text-lg p-5 md:p-10 text-color1'>
 						Although I valued my government career, the last five years became
 						increasingly difficult as I found myself lacking passion and purpose
 						in my work. In June 2022, I took a leap of faith and resigned,
@@ -92,42 +92,35 @@ export default function AboutPage() {
 					</p>
 				</div>
 			</section>
-			<section className='p-10'>
-				<p className='text-lg md:text-2xl text-white bg-color2 p-5'>
-					At Valley Allergy + Wellness, my mission is to support YOU on your
-					journey to health and wellness. I’m here to help you connect with
-					yourself—mind, body, and spirit—and provide a safe space where you can
-					share your story, find healing, and regain hope for the future.
-				</p>
-			</section>
-			<section className='p-10 text-center text-lg'>
-				<p>
+			<section className='bg-color1'>
+				<p className='text-lg md:text-2xl text-white p-5'>
 					Thank you for taking the time to read my story. Remember, no matter
 					what your goals or dreams are—whether it’s a new job, a child,
 					overcoming a health challenge—don’t give up. Believe that it CAN and
-					WILL happen!
+					WILL happen!{' '}
 				</p>
-				<button className='my-5 py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-sm md:text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
-					<Link href='/theory-behind-bie'>Learn more about BIE</Link>
-				</button>
-				<CldImage
-					width='600'
-					height='400'
-					src='https://res.cloudinary.com/dx97fht5v/image/upload/v1728434869/DSC07030_qtffqu.jpg'
-					sizes='100vw'
-					alt='profile photo of deborah'
-					className='w-60 object-scale-down mx-auto rounded-full'
-				/>
 			</section>
-			<section>
-				<p>
-					Are you ready to embark on your own healing journey? Contact me today
-					to learn how Valley Allergy + Wellness can help you achieve lasting
-					wellness!
-				</p>
-				<button className='uppercase my-5 py-2 px-5 rounded-lg border border-3 border-color1 bg-color1 text-white text-sm md:text-lg hover:bg-white hover:text-color1 ease-in-out duration-200'>
-					<Link href='/contact'>contact me</Link>
-				</button>
+			<section className='flex flex-col md:flex-row bg-color4/10'>
+				<div className='md:w-1/2'>
+					<h3 className='p-10 text-2xl lg:text-3xl font-normal font3'>
+						Are you ready to embark on your own healing journey? Contact me
+						today to learn how Valley Allergy + Wellness can help you achieve
+						lasting wellness!
+					</h3>
+					<button className='uppercase mx-10 mb-10 py-2 px-5 rounded-lg border border-3 border-color1 bg-color1 text-white text-sm md:text-lg hover:bg-white hover:text-color1 ease-in-out duration-200'>
+						<Link href='/contact'>contact me</Link>
+					</button>
+				</div>
+				<div className='md:w-1/2'>
+					<CldImage
+						width='1000'
+						height='1500'
+						src='https://res.cloudinary.com/dx97fht5v/image/upload/v1729446649/DSC07765_gapxdx.jpg'
+						sizes='100vw'
+						alt='profile photo of deborah'
+						className='w-full object-cover mx-auto'
+					/>
+				</div>
 			</section>
 		</main>
 	);
