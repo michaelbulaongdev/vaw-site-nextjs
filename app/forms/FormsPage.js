@@ -9,14 +9,14 @@ export default function FormsPage() {
 			<section className='bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1728055039/AdobeStock_85532144_fuq6m0.jpg)]'>
 				<div className='flex flex-col md:flex-row p-5 max-w-screen-2xl mx-auto'>
 					<div className='md:w-1/2 space-y-5 p-5'>
-						<h1 className='font2 text-5xl text-white'>
+						<h1 className='font2 text-3xl md:text-5xl text-white'>
 							Let&apos;s make it official!
 						</h1>
 						<div className='p-3 md:p-5 space-y-3'>
-							<h2 className='font-normal text-2xl text-white'>
+							<h2 className='font-normal text-xl md:text-2xl text-white'>
 								Simple click on each of the boxes and fill them out online.
 							</h2>
-							<h2 className='font-normal text-2xl text-white'>
+							<h2 className='font-normal text-xl md:text-2xl text-white'>
 								Complete all <strong>4</strong>&nbsp;forms{' '}
 								<strong className='bg-color3/30'>prior</strong>
 								&nbsp;to your first session!
@@ -27,7 +27,7 @@ export default function FormsPage() {
 								Have a question about the forms?
 							</h3>
 							<h3 className='text-white'>
-								Contact me via{' '}
+								Contact me via&nbsp;
 								<Link
 									href='mailto:ValleyAllergyAndWellness@outlook.com'
 									className='hover:underline hover:text-color3 text-color4 font-bold'>
@@ -46,7 +46,7 @@ export default function FormsPage() {
 							<h3 className='text-xl text-white'>
 								Want a sneak peek of my office?
 							</h3>
-							<button className='uppercase mt-5 py-1 px-5 border border-3 border-color1 bg-color1 text-white text-sm hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
+							<button className='uppercase mt-1 py-1 px-5 border border-3 border-color1 bg-color1 text-white text-sm hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
 								<Link href='/contact'>click here</Link>
 							</button>
 						</div>
@@ -83,21 +83,14 @@ export default function FormsPage() {
 					</div>
 				</div>
 			</section>
-			<section className='bg-gradient-to-b from-transparent to-color4/50'>
-				<div className='flex flex-col md:flex-row min-h-96 max-w-screen-2xl mx-auto'>
-					<h2 className='md:w-1/2 p-5 lg:p-20 text-4xl lg:text-5xl font2'>
-						BIE is new to you and have more questions?
-					</h2>
-					<div className='md:w-1/2 p-5 lg:p-20'>
-						<p className='text-3xl lg:text-4xl mb-5'>
-							You’re in luck! I&nbsp;
-							<strong className='font2 text-color1 bg-color3/50'>LOVE </strong>
-							talking about this stuff and learning with you.
-						</p>
-						<button className='py-2 px-5 rounded-lg border border-3 border-white bg-color1 text-white text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
-							<Link href='/contact'>Send me ALL your questions!</Link>
-						</button>
-					</div>
+			<section className='bg-color3/20'>
+				<div className='max-w-screen-2xl mx-auto py-10 flex flex-col text-center space-y-5'>
+					<h2 className='text-3xl lg:text-4xl font2'>Have questions?</h2>
+					<button className='mx-auto py-2 px-5 rounded-xl border border-3 border-color1 bg-color1 text-white text-lg hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
+						<Link href='/contact' className='uppercase'>
+							contact us
+						</Link>
+					</button>
 				</div>
 			</section>
 		</main>
