@@ -78,7 +78,7 @@ export default function HomePage() {
 				</div>
 			</section>
 			<section className='bg-white flex flex-col-reverse lg:flex-row'>
-				<div className='lg:w-1/2 min-h-96 md:min-h-screen bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729214212/DSC07512_ppxuc0.jpg)]'></div>
+				<div className='lg:w-1/2 min-h-96 md:min-h-screen bg-cover bg-center bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729214212/DSC07512_ppxuc0.jpg)]'></div>
 				<div className='lg:w-1/2 p-5 md:p-10 self-center'>
 					<h2 className='font2 p-5 text-color1 text-2xl lg:text-3xl'>
 						If you&apos;re looking for a way to balance and improve:
@@ -140,7 +140,7 @@ export default function HomePage() {
 						</Link>
 					</button>
 				</div>
-				<div className='lg:w-1/2 min-h-96 md:min-h-screen bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729214212/DSC07429_v2gcxv.jpg)]'></div>
+				<div className='lg:w-1/2 min-h-96 md:min-h-screen bg-cover bg-center bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729214212/DSC07429_v2gcxv.jpg)]'></div>
 			</section>
 			<section className='bg-color4/10'>
 				<div className='flex flex-col md:flex-row p-5 max-w-screen-2xl mx-auto'>

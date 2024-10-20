@@ -54,25 +54,24 @@ export default function AboutPage() {
 					obsession with health into a place of purpose&quot;
 				</h3>
 			</section>
-			<section className='bg-gradient-to-b from-color4/10 to-transparent p-5 md:p-16 flex flex-col space-y-10'>
-				<p className='text-sm md:text-lg md:w-2/3 bg-white/30 p-5 md:p-10 shadow-xl'>
-					The security of my government job provided numerous benefits and
-					opportunities to grow both professionally and personally. For the
-					first four years, I reviewed medical records for Social Security’s
-					Disability program, followed by 10 years of providing software
-					support. Although my career wasn’t directly related to alternative or
-					holistic health, my passion for health never faded. I’ve always been
-					deeply interested in biohacking, constantly immersing myself in
-					research, articles, and podcasts to optimize my health and that of my
-					family, particularly because of my family’s significant history with
-					cancer. After losing my mom in 2009, my personal mission became clear:
-					to live a long and healthy life and not let cancer define my story.
-					Health became my top priority—and my most invested hobby—as I
-					consistently explored new supplements and healing modalities.
-				</p>
-				<div className='flex flex-col md:flex-row'>
-					<div className='md:w-1/3'></div>
-					<p className='text-sm md:text-lg md:w-2/3 bg-color5/10 p-5 md:p-10 shadow-xl'>
+			<section className='bg-color4/10 flex flex-col lg:flex-row'>
+				<div className='flex flex-col lg:w-1/2'>
+					<p className='text-sm md:text-lg p-5'>
+						The security of my government job provided numerous benefits and
+						opportunities to grow both professionally and personally. For the
+						first four years, I reviewed medical records for Social Security’s
+						Disability program, followed by 10 years of providing software
+						support. Although my career wasn’t directly related to alternative
+						or holistic health, my passion for health never faded. I’ve always
+						been deeply interested in biohacking, constantly immersing myself in
+						research, articles, and podcasts to optimize my health and that of
+						my family, particularly because of my family’s significant history
+						with cancer. After losing my mom in 2009, my personal mission became
+						clear: to live a long and healthy life and not let cancer define my
+						story. Health became my top priority—and my most invested hobby—as I
+						consistently explored new supplements and healing modalities.
+					</p>
+					<p className='text-sm md:text-lg p-5'>
 						Although I valued my government career, the last five years became
 						increasingly difficult as I found myself lacking passion and purpose
 						in my work. In June 2022, I took a leap of faith and resigned,
@@ -86,6 +85,7 @@ export default function AboutPage() {
 						practitioner, and Valley Allergy + Wellness was born!
 					</p>
 				</div>
+				<div className='lg:w-1/2 bg-cover bg-center bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729446648/DSC07039_q57vx0.jpg)]'></div>
 			</section>
 			<section className='p-10'>
 				<p className='text-lg md:text-2xl text-white bg-color2 p-5'>
