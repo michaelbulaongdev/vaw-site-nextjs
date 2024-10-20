@@ -18,13 +18,13 @@ export default function AboutPage() {
 					/>
 				</div>
 				<div className='lg:w-1/2'>
-					<h1 className='font2 text-5xl xl:text-6xl text-center my-5'>
+					<h1 className='font2 text-5xl xl:text-6xl text-center my-5 px-5'>
 						Meet Deborah
 					</h1>
-					<h2 className='text-center font-normal text-lg'>
+					<h2 className='text-center font-normal text-base md:text-lg'>
 						Owner & Registered BioEnergetic
 					</h2>
-					<h2 className='text-center font-normal text-lg'>
+					<h2 className='text-center font-normal text-base md:text-lg'>
 						Intolerance Elimination Practitioner
 					</h2>
 					<div className='border border-color1 rounded-xl p-5 m-5 xl:p-10 xl:m-10 space-y-5 text-color1'>
@@ -56,7 +56,7 @@ export default function AboutPage() {
 			</section>
 			<section className='bg-color4/10 flex flex-col lg:flex-row'>
 				<div className='flex flex-col lg:w-1/2'>
-					<p className='text-sm md:text-lg p-5'>
+					<p className='text-sm md:text-lg p-5 md:p-10'>
 						The security of my government job provided numerous benefits and
 						opportunities to grow both professionally and personally. For the
 						first four years, I reviewed medical records for Social Security’s
@@ -71,7 +71,13 @@ export default function AboutPage() {
 						story. Health became my top priority—and my most invested hobby—as I
 						consistently explored new supplements and healing modalities.
 					</p>
-					<p className='text-sm md:text-lg p-5'>
+				</div>
+				<div className='lg:w-1/2 min-h-96 bg-cover bg-center bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729446648/DSC07039_q57vx0.jpg)]'></div>
+			</section>
+			<section className='bg-color4/10 flex flex-col-reverse lg:flex-row'>
+				<div className='lg:w-1/2 min-h-96 bg-cover bg-center bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729446649/DSC07030_khgopj.jpg)]'></div>
+				<div className='flex flex-col lg:w-1/2'>
+					<p className='text-sm md:text-lg p-5 md:p-10'>
 						Although I valued my government career, the last five years became
 						increasingly difficult as I found myself lacking passion and purpose
 						in my work. In June 2022, I took a leap of faith and resigned,
@@ -85,7 +91,6 @@ export default function AboutPage() {
 						practitioner, and Valley Allergy + Wellness was born!
 					</p>
 				</div>
-				<div className='lg:w-1/2 bg-cover bg-center bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729446648/DSC07039_q57vx0.jpg)]'></div>
 			</section>
 			<section className='p-10'>
 				<p className='text-lg md:text-2xl text-white bg-color2 p-5'>
