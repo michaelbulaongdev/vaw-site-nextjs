@@ -93,7 +93,7 @@ export default function AboutPage() {
 				</div>
 			</section>
 			<section className='bg-color1'>
-				<p className='text-lg md:text-2xl text-white p-5'>
+				<p className='text-lg md:text-2xl text-white p-5 lg:p-10'>
 					Thank you for taking the time to read my story. Remember, no matter
 					what your goals or dreams are—whether it’s a new job, a child,
 					overcoming a health challenge—don’t give up. Believe that it CAN and
@@ -102,14 +102,16 @@ export default function AboutPage() {
 			</section>
 			<section className='flex flex-col md:flex-row bg-color4/10'>
 				<div className='md:w-1/2'>
-					<h3 className='p-10 text-2xl lg:text-3xl font-normal font3'>
+					<h3 className='p-10 text-2xl lg:text-4xl font-normal font3'>
 						Are you ready to embark on your own healing journey? Contact me
 						today to learn how Valley Allergy + Wellness can help you achieve
 						lasting wellness!
 					</h3>
-					<button className='uppercase mx-10 mb-10 py-2 px-5 rounded-lg border border-3 border-color1 bg-color1 text-white text-sm md:text-lg hover:bg-white hover:text-color1 ease-in-out duration-200'>
-						<Link href='/contact'>contact me</Link>
-					</button>
+					<Link href='/contact'>
+						<button className='uppercase mx-10 mb-10 py-2 px-5 rounded-lg border border-3 border-color1 bg-color1 text-white text-sm md:text-lg hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
+							contact me
+						</button>
+					</Link>
 				</div>
 				<div className='md:w-1/2'>
 					<CldImage

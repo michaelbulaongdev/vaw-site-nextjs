@@ -34,7 +34,7 @@ export default function NavBar() {
 						className='lg:hidden'
 					/>
 				</Link>
-				<div className='flex flex-row space-x-7 my-auto items-center'>
+				<div className='flex flex-row space-x-5 my-auto items-center'>
 					<Link href='/' className={linkStyle}>
 						HOME
 					</Link>
@@ -46,6 +46,9 @@ export default function NavBar() {
 					</Link>
 					<Link href='/about' className={linkStyle}>
 						ABOUT
+					</Link>
+					<Link href='/theory-behind-bie' className={linkStyle}>
+						BIE
 					</Link>
 					<Link href='/contact' className={linkStyle}>
 						CONTACT
@@ -97,7 +100,7 @@ export default function NavBar() {
 									</Link>
 								</MenuItem>
 								<MenuItem>
-									<Link href='/services' className={linkStyleMenu}>
+									<Link href='/services#rates' className={linkStyleMenu}>
 										SERVICES
 									</Link>
 								</MenuItem>
@@ -109,6 +112,11 @@ export default function NavBar() {
 								<MenuItem>
 									<Link href='/about' className={linkStyleMenu}>
 										ABOUT
+									</Link>
+								</MenuItem>
+								<MenuItem>
+									<Link href='/theory-behind-bie' className={linkStyleMenu}>
+										BIE
 									</Link>
 								</MenuItem>
 								<MenuItem>
