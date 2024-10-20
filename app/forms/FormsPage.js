@@ -6,46 +6,52 @@ import {formsButton} from '../styles';
 export default function FormsPage() {
 	return (
 		<main className='flex flex-col'>
-			<section className='bg-gradient-to-b from-color4/50 to-transparent'>
+			<section className='bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1728055039/AdobeStock_85532144_fuq6m0.jpg)]'>
 				<div className='flex flex-col md:flex-row p-5 max-w-screen-2xl mx-auto'>
 					<div className='md:w-1/2 space-y-5 p-5'>
-						<h1 className='font2 text-5xl'>Let&apos;s make it official!</h1>
+						<h1 className='font2 text-5xl text-white'>
+							Let&apos;s make it official!
+						</h1>
 						<div className='p-3 md:p-5 space-y-3'>
-							<h2 className='font-normal text-2xl'>
+							<h2 className='font-normal text-2xl text-white'>
 								Simple click on each of the boxes and fill them out online.
 							</h2>
-							<h2 className='font-normal text-2xl'>
+							<h2 className='font-normal text-2xl text-white'>
 								Complete all <strong>4</strong>&nbsp;forms{' '}
 								<strong className='bg-color3/30'>prior</strong>
 								&nbsp;to your first session!
 							</h2>
 						</div>
 						<div className='p-3 md:p-5'>
-							<h3 className='text-xl'>Have a question about the forms?</h3>
-							<h3>
+							<h3 className='text-xl text-white'>
+								Have a question about the forms?
+							</h3>
+							<h3 className='text-white'>
 								Contact me via{' '}
 								<Link
 									href='mailto:ValleyAllergyAndWellness@outlook.com'
-									className='hover:underline hover:text-color3 text-color5 font-bold'>
+									className='hover:underline hover:text-color3 text-color4 font-bold'>
 									email
 								</Link>
 								&nbsp;or&nbsp;
 								<Link
 									href='tel:+12097518676'
-									className='hover:underline hover:text-color3 text-color5 font-bold'>
+									className='hover:underline hover:text-color3 text-color4 font-bold'>
 									phone
 								</Link>
 								.
 							</h3>
 						</div>
 						<div className='p-3 md:p-5'>
-							<h3 className='text-xl'>Want a sneak peek of my office?</h3>
-							<button className='uppercase mt-5 py-1 px-3 border border-3 border-color1 bg-color1 text-white text-sm hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
+							<h3 className='text-xl text-white'>
+								Want a sneak peek of my office?
+							</h3>
+							<button className='uppercase mt-5 py-1 px-5 border border-3 border-color1 bg-color1 text-white text-sm hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
 								<Link href='/contact'>click here</Link>
 							</button>
 						</div>
 					</div>
-					<div className='md:w-1/2 flex flex-col mx-auto space-y-10 p-5 lg:p-16 justify-center bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729147625/pexels-freestockpro-16504383_dzl7bb.jpg)]'>
+					<div className='md:w-1/2 flex flex-col mx-auto space-y-10 p-5 lg:p-16 justify-center bg-white/10'>
 						<button className='uppercase py-4 px-5 rounded-lg border border-3 border-color3 bg-color3 text-white lg:text-lg hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200'>
 							<Link
 								href='https://form.jotform.com/231097803601047'
