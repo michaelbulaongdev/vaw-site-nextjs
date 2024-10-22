@@ -13,14 +13,14 @@ export default function FaqPage() {
 	return (
 		<main className='flex flex-col'>
 			<section className='bg-gradient-to-b from-color3/30 to-color3/10'>
-				<div className='max-w-screen-2xl mx-auto flex flex-col p-5'>
+				<div className='max-w-screen-lg mx-auto flex flex-col p-5'>
 					<h1 className='font2 my-10 text-5xl text-color1 text-center'>
 						Frequently Asked Questions
 					</h1>
-					<div className='flex flex-col space-y-3 p-2 mx-auto'>
+					<div className='flex flex-col space-y-3 p-2 mx-auto lg:w-2/3'>
 						<Disclosure>
 							<DisclosureButton className='group flex flex-row space-x-2 text-xl hover:text-color3 text-left'>
-								<span className='w-5/6'>
+								<span className='w-11/12'>
 									What can I expect at my first BIE session?
 								</span>
 								<ChevronDownIcon className='size-5 group-data-[open]:rotate-180' />
@@ -56,7 +56,7 @@ export default function FaqPage() {
 						<hr></hr>
 						<Disclosure>
 							<DisclosureButton className={faqDisclosureButton}>
-								<span className='w-5/6'>Are there any side effects?</span>
+								<span className='w-11/12'>Are there any side effects?</span>
 								<ChevronDownIcon className={faqDisclosureChevron} />
 							</DisclosureButton>
 							<DisclosurePanel className={faqDisclosurePanel}>
@@ -78,7 +78,7 @@ export default function FaqPage() {
 						<hr></hr>
 						<Disclosure>
 							<DisclosureButton className={faqDisclosureButton}>
-								<span className='w-5/6'>
+								<span className='w-11/12'>
 									How soon will I notice an improvement in my symptoms?
 								</span>
 								<ChevronDownIcon className={faqDisclosureChevron} />
@@ -106,7 +106,7 @@ export default function FaqPage() {
 						<hr></hr>
 						<Disclosure>
 							<DisclosureButton className={faqDisclosureButton}>
-								<span className='w-5/6'>
+								<span className='w-11/12'>
 									What about Anaphylactic Stressors?
 								</span>
 								<ChevronDownIcon className={faqDisclosureChevron} />
@@ -130,7 +130,7 @@ export default function FaqPage() {
 						<hr></hr>
 						<Disclosure>
 							<DisclosureButton className={faqDisclosureButton}>
-								<span className='w-5/6'>
+								<span className='w-11/12'>
 									How is BIE different from Acupuncture?
 								</span>
 								<ChevronDownIcon className={faqDisclosureChevron} />
@@ -148,7 +148,7 @@ export default function FaqPage() {
 						<hr></hr>
 						<Disclosure>
 							<DisclosureButton className={faqDisclosureButton}>
-								<span className='w-5/6'>
+								<span className='w-11/12'>
 									How do I prepare for my appointment?
 								</span>
 								<ChevronDownIcon className={faqDisclosureChevron} />
