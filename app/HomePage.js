@@ -15,19 +15,19 @@ export default function HomePage() {
 		<main className='flex flex-col'>
 			<section className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1728055039/AdobeStock_85532144_fuq6m0.jpg)] flex lg:min-h-[80vh]'>
 				<div className='py-36 text-center w-screen bg-black/10'>
-					<h1 className='px-10 font2 text-white text-5xl lg:text-7xl max-w-5xl mx-auto leading-tight'>
-						Relief starts here
+					<h1 className='px-10 font2 text-white text-7xl lg:text-8xl max-w-5xl mx-auto leading-tight'>
+						Relief starts here.
 					</h1>
-					<p className='text-white p-10 text-lg lg:text-2xl'>
+					<p className='font3 text-white p-10 text-lg lg:text-2xl'>
 						BIOENERGETIC INTOLERANCE ELIMINATION &#40;B.I.E.&#41;
 					</p>
-					<div className='px-5'>
+					{/* <div className='px-5'>
 						<Link
 							href='/theory-behind-bie'
 							className='py-2 px-5 rounded-lg border border-3 border-white bg-black/10 text-white text-lg hover:bg-white hover:text-color5 ease-in-out duration-200'>
 							Learn more about B.I.E.
 						</Link>
-					</div>
+					</div> */}
 				</div>
 			</section>
 			<section className='bg-color2/10 p-5 md:p-10'>

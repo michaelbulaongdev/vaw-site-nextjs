@@ -4,7 +4,7 @@ import './globals.css';
 
 export const metadata = {
 	title: 'Valley Allergy + Wellness',
-	description: 'Relief starts here',
+	description: 'Relief starts here.',
 };
 
 export default function RootLayout({children}) {
