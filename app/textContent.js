@@ -7,10 +7,30 @@ export const homeList1 = [
 ];
 
 export const homeGridList = [
-  "Pet & Seasonal Allergies",
-  "Digestive Issues",
-  "Blood Sugar Imbalances",
-  "Hormonal Imbalances",
-  "Headaches & Migraines",
-  "Skin Issues",
+  {
+    image:
+      "https://res.cloudinary.com/dx97fht5v/image/upload/v1729757096/pet-allergy-removebg_xhgdxo.png",
+    text: "Pet & Seasonal Allergies",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dx97fht5v/image/upload/v1729757990/intestine_un0ama.png",
+    text: "Digestive Issues",
+  },
+  {
+    image: "",
+    text: "Blood Sugar Imbalances",
+  },
+  {
+    image: "",
+    text: "Hormonal Imbalances",
+  },
+  {
+    image: "",
+    text: "Headaches & Migraines",
+  },
+  {
+    image: "",
+    text: "Skin Issues",
+  },
 ];
