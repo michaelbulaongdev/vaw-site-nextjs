@@ -82,7 +82,7 @@ export default function HomePage() {
             {homeGridList.map((item, index) => (
               <li key={index} className="m-3 md:m-5 p-5">
                 <div
-                  className={`mx-auto h-36 w-36 bg-center bg-contain bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729757990/intestine_un0ama.png)]`}
+                  className={`mx-auto h-36 w-36 bg-center bg-contain ${item.image}`}
                 ></div>
                 <p className="flex min-w-1/3 items-center justify-center  text-color1 uppercase font3">
                   {item.text}
