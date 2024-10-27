@@ -72,10 +72,10 @@ export default function HomePage() {
       </section>
       <section className="bg-color3/10 px-5 py-5 md:py-10">
         <div className="max-w-screen-xl mx-auto">
-          <h2 className=" text-color1 text-center text-xl md:text-2xl">
+          <h2 className=" text-color1 text-center text-2xl md:text-4xl">
             We help children and adults with a
           </h2>
-          <h2 className="mb-5 text-color1 text-center text-xl md:text-2xl">
+          <h2 className="mb-5 text-color1 text-center text-2xl md:text-4xl">
             wide range of conditions, including:
           </h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center">
@@ -100,7 +100,7 @@ export default function HomePage() {
       <section className="bg-white flex flex-col-reverse lg:flex-row">
         <div className="lg:w-1/2 min-h-96 md:min-h-screen bg-cover bg-center bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729214212/DSC07512_ppxuc0.jpg)]"></div>
         <div className="lg:w-1/2 p-5 md:p-10 self-center">
-          <h2 className="font2 p-5 text-color1 text-2xl lg:text-3xl">
+          <h2 className="font2 p-5 text-color1 text-3xl lg:text-4xl">
             If you&apos;re looking for a way to balance and improve:
           </h2>
           <ul className="pl-5">
@@ -124,17 +124,21 @@ export default function HomePage() {
               </li>
             ))}
           </ul>
-          <p className="p-5 text-color1 text-xl lg:text-2xl">
-            <span className="font2 font-bold">
-              Bioenergetic Intolerance Elimination &#40;B.I.E.&#41;
-            </span>
-            &nbsp; may be the answer for YOU!
-          </p>
+          <div className="p-5 mt-5">
+            <p className="text-color1 text-3xl lg:text-4xl text-center">
+              <span className="font2 font-bold">
+                Bioenergetic Intolerance Elimination &#40;B.I.E.&#41;
+              </span>
+            </p>
+            <p className="text-color1 text-3xl lg:text-4xl text-center">
+              may be the answer for YOU!
+            </p>
+          </div>
         </div>
       </section>
       <section className="bg-white flex flex-col lg:flex-row">
         <div className="lg:w-1/2 p-10 self-center">
-          <p className=" text-color1 lg:text-lg">
+          <p className=" text-color1 text-lg lg:text-xl">
             Working with Valley Allergy + Wellness will involve&nbsp;
             <strong>
               Bioenergetic Intolerance Elimination &#40;B.I.E.&#41;
@@ -145,11 +149,11 @@ export default function HomePage() {
             by using a safe, non-invasive patented device to re- introduce the
             frequencies to 16 acupuncture points across the body.
           </p>
-          <div className="my-5">
-            <h2 className="font3 text-color1 text-3xl md:text-4xl">
+          <div className="my-5 md:my-10">
+            <h2 className="font3 text-color1 text-3xl md:text-5xl">
               The BEST part?
             </h2>
-            <h2 className="font3 text-color1 text-3xl md:text-4xl">
+            <h2 className="font3 text-color1 text-3xl md:text-5xl">
               <span className="underline">NO</span> needles are involved!
             </h2>
           </div>
@@ -169,12 +173,12 @@ export default function HomePage() {
         <div className="flex flex-col md:flex-row p-5 max-w-screen-2xl mx-auto">
           <div className="md:w-1/2">
             <CldImage
-              width="600"
-              height="800"
-              src="https://res.cloudinary.com/dx97fht5v/image/upload/v1726009247/dchan-1_dxsjdf.png"
+              width="1000"
+              height="1500"
+              src="https://res.cloudinary.com/dx97fht5v/image/upload/v1729446649/DSC07765_gapxdx.jpg"
               sizes="100vw"
               alt="profile photo of deborah"
-              className="p-5 object-scale-down mx-auto"
+              className="w-full p-2 m-5 object-cover mx-auto bg-color2"
             />
           </div>
           <div className="md:w-1/2 lg:w-3/5 p-10 flex flex-col justify-center lg:px-20 xl:px-32">
@@ -186,7 +190,7 @@ export default function HomePage() {
               alt="quotation mark"
               className="mx-auto"
             />
-            <p className="lg:text-lg my-5 lg:my-10 text-center text-color1">
+            <p className="text-lg lg:text-2xl my-5 lg:my-10 text-center text-color1">
               My mission at Valley Allergy + Wellness is to assist YOU in your
               pursuit for health and wellness and to empower you to connect to
               yourself - in mind, body, and spirit and THRIVE! My goal is to
@@ -206,7 +210,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section className="bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729147625/pexels-freestockpro-16504383_dzl7bb.jpg)] text-white text-center py-10">
+      <section className="bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729986152/AdobeStock_85532144_fuq6m0-top-portion_b6jokd.jpg)] text-white text-center py-10">
         <h2 className="font2 text-white text-4xl lg:text-6xl text-center p-5">
           Client Testimonials
         </h2>
@@ -272,6 +276,51 @@ export default function HomePage() {
               <p>Google</p>
             </a>
           </div>
+        </div>
+      </section>
+      <section className="bg-color3/10">
+        <div className="p-10 max-w-screen-2xl mx-auto">
+          <p className="text-color1 font-bold text-center md:text-left">
+            Follow us on Instagram!
+          </p>
+          <Link
+            className="mt-3 flex flex-col md:flex-row md:space-x-1"
+            href="https://www.instagram.com/valleyallergywellness/"
+            target="_blank"
+          >
+            <CldImage
+              width="300"
+              height="300"
+              src="https://res.cloudinary.com/dx97fht5v/image/upload/v1726009247/insta-1_xoczzf.png"
+              sizes="100vw"
+              alt="instagram post thumbnail"
+              className="md:w-1/4 object-scale-down mx-auto"
+            />
+            <CldImage
+              width="300"
+              height="300"
+              src="https://res.cloudinary.com/dx97fht5v/image/upload/v1726009248/insta-2_ckbznb.png"
+              sizes="100vw"
+              alt="instagram post thumbnail"
+              className="hidden md:block md:w-1/4 object-scale-down mx-auto"
+            />
+            <CldImage
+              width="300"
+              height="300"
+              src="https://res.cloudinary.com/dx97fht5v/image/upload/v1726009246/insta-3_ej42fj.png"
+              sizes="100vw"
+              alt="instagram post thumbnail"
+              className="hidden md:block md:w-1/4 object-scale-down mx-auto"
+            />
+            <CldImage
+              width="300"
+              height="300"
+              src="https://res.cloudinary.com/dx97fht5v/image/upload/v1728269781/insta-4_fn7rls.png"
+              sizes="100vw"
+              alt="instagram post thumbnail"
+              className="hidden md:block md:w-1/4 object-scale-down mx-auto"
+            />
+          </Link>
         </div>
       </section>
     </main>
