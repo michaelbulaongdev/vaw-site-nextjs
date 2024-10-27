@@ -49,7 +49,7 @@ export default function AboutPage() {
 				</div>
 			</section>
 			<section className='bg-color1 px-5 py-10'>
-				<h3 className='text-center text-white font-normal text-2xl md:text-3xl'>
+				<h3 className='font3 text-center text-white font-normal text-3xl md:text-4xl'>
 					&quot;I saw a way for me to bring my passion for helping others and my
 					obsession with health into a place of purpose&quot;
 				</h3>
@@ -93,20 +93,24 @@ export default function AboutPage() {
 				</div>
 			</section>
 			<section className='bg-color1'>
-				<p className='text-lg md:text-2xl text-white p-5 lg:p-10'>
-					Thank you for taking the time to read my story. Remember, no matter
-					what your goals or dreams are—whether it’s a new job, a child,
-					overcoming a health challenge—don’t give up. Believe that it CAN and
-					WILL happen!{' '}
-				</p>
+				<div className='p5 lg:p-10 text-xl md:text-3xl text-white space-y-10 max-w-screen-lg font3'>
+					<p className=''>
+						Thank you for taking the time to read my story. Remember, no matter
+						what your goals or dreams are—whether it’s a new job, a child,
+						overcoming a health challenge—don’t give up.
+					</p>
+					<p className=''>Believe that it CAN and WILL happen!</p>
+				</div>
 			</section>
 			<section className='flex flex-col md:flex-row bg-color4/10'>
-				<div className='md:w-1/2'>
-					<h3 className='p-10 text-2xl lg:text-4xl font-normal font3'>
-						Are you ready to embark on your own healing journey? Contact me
-						today to learn how Valley Allergy + Wellness can help you achieve
-						lasting wellness!
-					</h3>
+				<div className='md:w-1/2 flex flex-col justify-center'>
+					<div className='p-10 text-xl lg:text-3xl font3 space-y-10'>
+						<p>Are you ready to embark on your own healing journey?</p>
+						<p>
+							Contact me today to learn how Valley Allergy + Wellness can help
+							you achieve lasting wellness!
+						</p>
+					</div>
 					<Link href='/contact'>
 						<button className='uppercase mx-10 mb-10 py-2 px-5 rounded-lg border border-3 border-color1 bg-color1 text-white text-sm md:text-lg hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
 							contact me
