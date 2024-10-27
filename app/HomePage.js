@@ -36,7 +36,7 @@ export default function HomePage() {
             <CldImage
               width="600"
               height="800"
-              src="https://res.cloudinary.com/dx97fht5v/image/upload/v1729756102/tree_w6thap.png"
+              src="https://res.cloudinary.com/dx97fht5v/image/upload/v1729989313/tree-purple_ytrokt.png"
               sizes="100vw"
               alt="profile photo of deborah"
               className="p-5 object-scale-down mx-auto"
@@ -84,7 +84,7 @@ export default function HomePage() {
                 <div
                   className={`mx-auto h-36 w-36 bg-center bg-contain ${item.image}`}
                 ></div>
-                <p className="flex min-w-1/3 items-center justify-center  text-color1 uppercase font3">
+                <p className="flex min-w-1/3 items-center justify-center uppercase font3">
                   {item.text}
                 </p>
               </li>
@@ -210,7 +210,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section className="bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729986152/AdobeStock_85532144_fuq6m0-top-portion_b6jokd.jpg)] text-white text-center py-10">
+      <section className="bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729988595/AdobeStock_85532144_sky_portion_p8srrx.jpg)] text-white text-center py-10">
         <h2 className="font2 text-white text-4xl lg:text-6xl text-center p-5">
           Client Testimonials
         </h2>
