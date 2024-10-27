@@ -2,7 +2,7 @@ export const linkStyle =
   "hidden lg:block cursor-pointer ease-in-out duration-200 text-color1 hover:text-color3";
 
 export const linkStyleDropDown =
-  "hidden lg:block cursor-pointer ease-in-out duration-200 text-color1 hover:text-color3 p-2 shadow-sm bg-white border text-sm";
+  "hidden lg:block cursor-pointer ease-in-out duration-200 text-color1 hover:text-color3 p-2 shadow-sm bg-white border border-1 text-sm";
 
 export const linkStyleMenu =
   "lg:hidden cursor-pointer ease-in-out duration-200";
