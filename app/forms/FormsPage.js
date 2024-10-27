@@ -83,14 +83,24 @@ export default function FormsPage() {
 					</div>
 				</div>
 			</section>
-			<section className='bg-color3/20'>
+			<section className='bg-color3/10'>
 				<div className='max-w-screen-2xl mx-auto py-10 flex flex-col text-center space-y-5'>
-					<h2 className='text-3xl lg:text-4xl font2'>Have questions?</h2>
-					<button className='mx-auto py-2 px-5 rounded-xl border border-3 border-color1 bg-color1 text-white text-lg hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
-						<Link href='/contact' className='uppercase'>
+					<h2 className='text-3xl lg:text-5xl font2'>Got questions?</h2>
+					<p className='text-xl md:text-3xl'>
+						Check out our&nbsp;
+						<Link
+							href='/faq'
+							className='bg-color4 hover:text-color1 hover:underline'>
+							FAQs
+						</Link>
+						&nbsp;or{' '}
+						<Link
+							href='/contact'
+							className='bg-color4 hover:text-color1 hover:underline'>
 							contact us
 						</Link>
-					</button>
+						!
+					</p>
 				</div>
 			</section>
 		</main>
