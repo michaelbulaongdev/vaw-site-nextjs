@@ -7,9 +7,11 @@ export default function TheoryBehindPage() {
 		<main className='flex flex-col'>
 			<section className='bg-color4/10'>
 				<div className='flex flex-col md:flex-row p-5 max-w-screen-2xl mx-auto'>
-					<div className='md:w-1/2'>
-						<h2>What is BIE?</h2>
-						<p>
+					<div className='md:w-1/2 m-5 p-5 border border-color5'>
+						<h2 className='p-5 text-center text-3xl md:text-5xl'>
+							What is BIE?
+						</h2>
+						<p className='p-5 m-0 md:m-5 bg-color2/10 text-sm md:text-lg'>
 							<strong>Bioenergetic Intolerance Elimination (BIE)</strong>,
 							founded in 1998, is an effective, non-invasive modality that
 							enables one’s body to recognize sensitivities or intolerances
@@ -18,10 +20,10 @@ export default function TheoryBehindPage() {
 							the intolerances.
 						</p>
 					</div>
-					<div className='md:w-1/2 bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729433270/grass-image_vzapu2.jpg)]'>
+					<div className='md:w-1/2 bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729433270/grass-image_vzapu2.jpg)] flex justify-center items-center m-5'>
 						<Link
 							href='/theory-behind-bie'
-							className='mt-5 py-2 px-5 rounded-lg border border-3 border-color1 bg-color1 text-white text-xs text-center font-bold hover:bg-transparent hover:text-color1 ease-in-out duration-200'>
+							className='mx-auto py-2 px-5 border border-white bg-color2 text-white text-xl text-center font-bold hover:bg-white/50 ease-in-out duration-200'>
 							<button>Read the Theory Behind BIE</button>
 						</Link>
 					</div>
