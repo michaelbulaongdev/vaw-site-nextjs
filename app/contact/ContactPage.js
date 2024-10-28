@@ -35,7 +35,7 @@ export default function ContactPage() {
             , you can contact us by filling out the form below.
           </p>
         </div>
-        <Fieldset className="space-y-6 rounded-xl bg-white/5 p-6 sm:p-10 max-w-screen-lg mx-auto">
+        <Fieldset className="space-y-6 rounded-xl bg-white/5 p-6 sm:p-10 max-w-screen-md mx-auto">
           {/* <Legend className="text-base/7 font-semibold text-white">
             Name (required)
           </Legend> */}
