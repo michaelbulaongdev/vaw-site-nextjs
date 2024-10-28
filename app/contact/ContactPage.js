@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Script from "next/script";
 import { CldImage } from "next-cloudinary";
 
 import {
@@ -36,103 +37,134 @@ export default function ContactPage() {
             , you can contact us by filling out the form below.
           </p>
         </div>
-        <Fieldset className="space-y-6 rounded-xl bg-white/5 p-6 sm:p-10 max-w-screen-md mx-auto">
-          {/* <Legend className="text-base/7 font-semibold text-white">
+        <form onSubmit="emailSend(); reset(); return false;">
+          <Fieldset className="space-y-6 rounded-xl bg-white/5 p-6 sm:p-10 max-w-screen-md mx-auto">
+            {/* <Legend className="text-base/7 font-semibold text-white">
             Name (required)
           </Legend> */}
-          <div className="flex flex-col md:flex-row md:space-x-5">
-            <Field className="md:w-1/2">
-              <Label className="text-sm/6 font-medium text-white">
-                First Name (required)
-              </Label>
-              <Input
-                className={clsx(
-                  "mt-3 block w-full rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white",
-                  "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25"
-                )}
-              />
-            </Field>
-            <Field className="md:w-1/2 mt-5 md:mt-0">
-              <Label className="text-sm/6 font-medium text-white">
-                Last Name (required)
-              </Label>
-              <Input
-                className={clsx(
-                  "mt-3 block w-full rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white",
-                  "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25"
-                )}
-              />
-            </Field>
-          </div>
-          <Field>
-            <Label className="text-sm/6 font-medium text-white">
-              Email address (required)
-            </Label>
-            <Input
-              className={clsx(
-                "mt-3 block w-full rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white",
-                "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25"
-              )}
-            />
-          </Field>
-          <Field>
-            <Label className="text-sm/6 font-medium text-white">
-              Phone number
-            </Label>
-            <Input
-              className={clsx(
-                "mt-3 block w-full rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white",
-                "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25"
-              )}
-            />
-          </Field>
-          <Field>
-            <Label className="text-sm/6 font-medium text-white">
-              Message (required)
-            </Label>
-            <Description className="text-sm/6 text-white/50">
-              Tell me more about you and what you hope to achieve through the
-              BIE process.
-            </Description>
-            <Textarea
-              className={clsx(
-                "mt-3 block w-full resize-none rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white",
-                "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25"
-              )}
-              rows={3}
-            />
-          </Field>
-          <Field>
-            <Label className="text-sm/6 font-medium text-white">
-              Services (required)
-            </Label>
-            <Description className="text-sm/6 text-white/50">
-              What service are you inquiring about?
-            </Description>
-            <div className="relative">
-              <Select
-                className={clsx(
-                  "mt-3 block w-full appearance-none rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white",
-                  "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25",
-                  // Make the text of each option black on Windows
-                  "*:text-black"
-                )}
-              >
-                <option>Free Consult Call</option>
-                <option>Schedule Initial Visit ($185)</option>
-                <option>Schedule a Follow Up Visit ($85)</option>
-                <option>Interested in Packages</option>
-              </Select>
-              <ChevronDownIcon
-                className="group pointer-events-none absolute top-2.5 right-2.5 size-4 fill-white/60"
-                aria-hidden="true"
-              />
+            <div className="flex flex-col md:flex-row md:space-x-5">
+              <Field className="md:w-1/2">
+                <Label className="text-sm/6 font-medium text-white">
+                  First Name (required)
+                </Label>
+                <Input
+                  type="text"
+                  id="firstname"
+                  name="firstname"
+                  placeholder="First Name"
+                  required
+                  className={clsx(
+                    "mt-3 block w-full rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white",
+                    "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25"
+                  )}
+                />
+              </Field>
+              <Field className="md:w-1/2 mt-5 md:mt-0">
+                <Label className="text-sm/6 font-medium text-white">
+                  Last Name (required)
+                </Label>
+                <Input
+                  type="text"
+                  id="lastname"
+                  name="lastname"
+                  placeholder="Last Name"
+                  required
+                  className={clsx(
+                    "mt-3 block w-full rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white",
+                    "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25"
+                  )}
+                />
+              </Field>
             </div>
-          </Field>
-          <Button className="rounded bg-color1 py-2 px-4 text-sm text-white hover:bg-color3 ease-in-out duration-200">
-            Let&apos;s get well!
-          </Button>
-        </Fieldset>
+            <Field>
+              <Label className="text-sm/6 font-medium text-white">
+                Email address (required)
+              </Label>
+              <Input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="email@yourdomain.com"
+                required
+                className={clsx(
+                  "mt-3 block w-full rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white",
+                  "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25"
+                )}
+              />
+            </Field>
+            <Field>
+              <Label className="text-sm/6 font-medium text-white">
+                Phone number
+              </Label>
+              <Input
+                type="text"
+                id="phone"
+                name="phone"
+                placeholder="209-123-4567"
+                className={clsx(
+                  "mt-3 block w-full rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white",
+                  "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25"
+                )}
+              />
+            </Field>
+            <Field>
+              <Label className="text-sm/6 font-medium text-white">
+                Message (required)
+              </Label>
+              <Description className="text-sm/6 text-white/50">
+                Tell me more about you and what you hope to achieve through the
+                BIE process.
+              </Description>
+              <Textarea
+                id="message"
+                name="message"
+                placeholder="Enter your message here."
+                required
+                className={clsx(
+                  "mt-3 block w-full resize-none rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white",
+                  "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25"
+                )}
+                rows={3}
+              />
+            </Field>
+            <Field>
+              <Label className="text-sm/6 font-medium text-white">
+                Services (required)
+              </Label>
+              <Description className="text-sm/6 text-white/50">
+                What service are you inquiring about?
+              </Description>
+              <div className="relative">
+                <Select
+                  id="services"
+                  name="services"
+                  required
+                  className={clsx(
+                    "mt-3 block w-full appearance-none rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white",
+                    "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25",
+                    // Make the text of each option black on Windows
+                    "*:text-black"
+                  )}
+                >
+                  <option>Free Consult Call</option>
+                  <option>Schedule Initial Visit ($185)</option>
+                  <option>Schedule a Follow Up Visit ($85)</option>
+                  <option>Interested in Packages</option>
+                </Select>
+                <ChevronDownIcon
+                  className="group pointer-events-none absolute top-2.5 right-2.5 size-4 fill-white/60"
+                  aria-hidden="true"
+                />
+              </div>
+            </Field>
+            <Button
+              type="submit"
+              className="rounded bg-color1 py-2 px-4 text-sm text-white hover:bg-color3 ease-in-out duration-200"
+            >
+              Let&apos;s get well!
+            </Button>
+          </Fieldset>
+        </form>
       </section>
       <section className="bg-color4/10 py-10">
         <h3 className="text-color1 text-5xl text-center font3 mb-5">
@@ -196,6 +228,8 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+      <Script scr="https://smtpjs.com/v3/smtp.js"></Script>
+      <Script src="ContactForm.js"></Script>
     </main>
   );
 }
