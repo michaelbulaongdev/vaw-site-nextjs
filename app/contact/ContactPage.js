@@ -12,6 +12,7 @@ import {
   Legend,
   Select,
   Textarea,
+  Button,
 } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import clsx from "clsx";
@@ -128,6 +129,9 @@ export default function ContactPage() {
               />
             </div>
           </Field>
+          <Button className="rounded bg-color1 py-2 px-4 text-sm text-white hover:bg-color3 ease-in-out duration-200">
+            Let&apos;s get well!
+          </Button>
         </Fieldset>
       </section>
       <section className="bg-color4/10">
