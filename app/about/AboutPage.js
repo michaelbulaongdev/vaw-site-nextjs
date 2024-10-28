@@ -93,7 +93,7 @@ export default function AboutPage() {
         </div>
       </section>
       <section className="bg-color1">
-        <div className="p5 lg:p-10 text-xl md:text-3xl text-white space-y-10 max-w-screen-lg font3 text-center mx-auto">
+        <div className="p-5 lg:p-10 text-xl md:text-3xl text-white space-y-10 max-w-screen-lg font3 text-center mx-auto">
           <p className="">
             Thank you for taking the time to read my story. Remember, no matter
             what your goals or dreams are—whether it’s a new job, a child,

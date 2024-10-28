@@ -52,7 +52,7 @@ export default function ContactPage() {
                 )}
               />
             </Field>
-            <Field className="md:w-1/2">
+            <Field className="md:w-1/2 mt-5 md:mt-0">
               <Label className="text-sm/6 font-medium text-white">
                 Last Name (required)
               </Label>
@@ -150,7 +150,7 @@ export default function ContactPage() {
               src="https://res.cloudinary.com/dx97fht5v/image/upload/v1728434869/Valley_Allergy_Wellness_Office_Parking_yk939q.jpg"
               sizes="100vw"
               alt="parking map of the clinic"
-              className="object-scale-down mx-auto"
+              className="object-scale-down mx-auto md:ml-auto md:mr-5"
             />
             <CldImage
               width="500"
@@ -158,13 +158,13 @@ export default function ContactPage() {
               src="https://res.cloudinary.com/dx97fht5v/image/upload/v1730080688/vaw-google-map-ss_icj74m.png"
               sizes="100vw"
               alt="google map view of the clinic"
-              className="object-scale-down mx-auto"
+              className="object-scale-down mx-auto md:ml-auto md:mr-5"
             />
           </Link>
-          <div className="md:w-1/2 flex flex-col lg:px-20">
-            <h3 className="text-color1 text-xl">Address:</h3>
+          <div className="md:w-1/2 flex flex-col mx-auto md:ml-5 space-y-3 px-5 md:px-0">
+            <h3 className="text-color1 text-lg pt-5 md:pt-0">Address:</h3>
             <a
-              className="pl-3 hover:text-color4 text-sm"
+              className="hover:text-color4 text-sm px-5"
               href="https://maps.app.goo.gl/otoE1X1iBrQAHv9G8"
               target="_blank"
             >
@@ -172,10 +172,9 @@ export default function ContactPage() {
               <p>Building A, Suite A101</p>
               <p>Stockton, CA 95207</p>
             </a>
-
-            <h3 className="text-color1 text-xl">Directions:</h3>
-            <ul className="bg-color3/10 p-5 text-sm space-y-5">
-              <li className="text-lg text-color1">
+            <h3 className="text-color1 text-lg pt-3">Directions:</h3>
+            <ul className="px-5 text-sm space-y-4">
+              <li>
                 The directions will likely have you turn onto&nbsp;
                 <strong>Quail Lakes Plaza</strong>.
               </li>
