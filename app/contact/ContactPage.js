@@ -134,26 +134,51 @@ export default function ContactPage() {
           </Button>
         </Fieldset>
       </section>
-      <section className="bg-color4/10">
-        <div className="flex flex-col md:flex-row px-5 py-10 max-w-screen-2xl mx-auto">
-          <div className="md:w-1/2">
-            <h3 className="text-color1 text-3xl text-center">Location</h3>
+      <section className="bg-color4/10 py-10">
+        <h3 className="text-color1 text-5xl text-center font3 mb-5">
+          Clinic Location
+        </h3>
+        <div className="flex flex-col md:flex-row max-w-screen-2xl mx-auto">
+          <Link
+            href="https://maps.app.goo.gl/otoE1X1iBrQAHv9G8"
+            target="_blank"
+            className="md:w-1/2"
+          >
             <CldImage
-              width="600"
-              height="800"
+              width="500"
+              height="500"
               src="https://res.cloudinary.com/dx97fht5v/image/upload/v1728434869/Valley_Allergy_Wellness_Office_Parking_yk939q.jpg"
               sizes="100vw"
-              alt="profile photo of deborah"
-              className="p-5 object-scale-down mx-auto"
+              alt="parking map of the clinic"
+              className="object-scale-down mx-auto"
             />
-          </div>
+            <CldImage
+              width="500"
+              height="500"
+              src="https://res.cloudinary.com/dx97fht5v/image/upload/v1730080688/vaw-google-map-ss_icj74m.png"
+              sizes="100vw"
+              alt="google map view of the clinic"
+              className="object-scale-down mx-auto"
+            />
+          </Link>
           <div className="md:w-1/2 flex flex-col lg:px-20">
-            <h3 className="text-color1 text-3xl text-center">Directions</h3>
-            <p className="lg:text-lg my-5 lg:my-10 text-center text-color1">
-              The directions will likely have you turn onto&nbsp;
-              <strong>Quail Lakes Plaza</strong>.
-            </p>
+            <h3 className="text-color1 text-xl">Address:</h3>
+            <a
+              className="pl-3 hover:text-color4 text-sm"
+              href="https://maps.app.goo.gl/otoE1X1iBrQAHv9G8"
+              target="_blank"
+            >
+              <p>2291 W March Lane</p>
+              <p>Building A, Suite A101</p>
+              <p>Stockton, CA 95207</p>
+            </a>
+
+            <h3 className="text-color1 text-xl">Directions:</h3>
             <ul className="bg-color3/10 p-5 text-sm space-y-5">
+              <li className="text-lg text-color1">
+                The directions will likely have you turn onto&nbsp;
+                <strong>Quail Lakes Plaza</strong>.
+              </li>
               <li>
                 When you are on Quail Lakes Plaza, continue straight until you
                 see the round-about and Arroyo&apos;s Restaurant on the left

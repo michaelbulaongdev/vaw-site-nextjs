@@ -104,15 +104,15 @@ export default function AboutPage() {
       </section>
       <section className="flex flex-col md:flex-row bg-color4/10">
         <div className="md:w-1/2 flex flex-col justify-center">
-          <div className="p-10 text-xl lg:text-3xl font3 space-y-10">
+          <div className="p-10 text-xl lg:text-3xl font3 space-y-10 text-center">
             <p>Are you ready to embark on your own healing journey?</p>
             <p>
               Contact me today to learn how Valley Allergy + Wellness can help
               you achieve lasting wellness!
             </p>
           </div>
-          <Link href="/contact">
-            <button className="uppercase mx-10 mb-10 py-2 px-5 rounded-lg border border-3 border-color1 bg-color1 text-white text-sm md:text-lg hover:bg-transparent hover:text-color1 ease-in-out duration-200">
+          <Link href="/contact" className="mx-auto p-1">
+            <button className="uppercase mb-10 py-2 px-5 rounded-lg border border-3 border-color1 bg-color1 text-white text-sm md:text-lg hover:bg-transparent hover:text-color1 ease-in-out duration-200">
               contact me
             </button>
           </Link>
