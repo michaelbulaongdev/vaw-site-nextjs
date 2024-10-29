@@ -65,7 +65,7 @@ export default function NavBar() {
                     href="/what-is-bie#what-to-expect"
                     className={linkStyleDropDown}
                   >
-                    What to expect
+                    What to Expect
                   </Link>
                 </MenuItem>
               </MenuItems>
