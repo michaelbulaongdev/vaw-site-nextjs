@@ -18,7 +18,7 @@ export default function HomePage() {
           <h1 className="px-10 font2 text-white text-7xl lg:text-8xl max-w-5xl mx-auto leading-tight">
             Relief starts here.
           </h1>
-          <p className="font3 text-white p-10 text-lg lg:text-2xl">
+          <p className="font1 text-white p-10 text-lg lg:text-2xl">
             BIOENERGETIC INTOLERANCE ELIMINATION &#40;B.I.E.&#41;
           </p>
           {/* <div className='px-5'>
@@ -84,7 +84,7 @@ export default function HomePage() {
                 <div
                   className={`mx-auto h-36 w-36 bg-center bg-contain ${item.image}`}
                 ></div>
-                <p className="flex min-w-1/3 items-center justify-center uppercase font3">
+                <p className="flex min-w-1/3 items-center justify-center uppercase font1 text-lg md:text-xl">
                   {item.text}
                 </p>
               </li>
@@ -138,7 +138,7 @@ export default function HomePage() {
       </section>
       <section className="bg-white flex flex-col lg:flex-row">
         <div className="lg:w-1/2 p-10 self-center">
-          <p className=" text-color1 text-lg lg:text-xl">
+          <p className=" text-color1 text-lg lg:text-xl text-justify">
             Working with Valley Allergy + Wellness will involve&nbsp;
             <strong>
               Bioenergetic Intolerance Elimination &#40;B.I.E.&#41;

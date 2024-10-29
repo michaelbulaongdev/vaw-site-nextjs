@@ -32,6 +32,11 @@ h6 {
   font-weight: 700;
 }
 
+.font1 {
+  font-family: "Nunito", system-ui;
+  font-weight: 400;
+}
+
 .font2 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
