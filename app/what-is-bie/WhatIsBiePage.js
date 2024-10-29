@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function TheoryBehindPage() {
+export default function WhatIsBiePage() {
   return (
     <main className="flex flex-col">
       <section className="bg-color4/10">
@@ -55,7 +55,7 @@ export default function TheoryBehindPage() {
           </ul>
         </div>
       </section>
-      <section className="bg-color4/10">
+      <section id="tour-video" className="bg-color4/10">
         <div className="flex flex-col lg:flex-row py-5 md:py-10 px-5 max-w-screen-2xl mx-auto">
           <h2 className="flex items-center p-10 text-center lg:text-right text-2xl md:text-4xl lg:w-2/5">
             Watch the video to see what an initial visit looks like!

@@ -17,8 +17,8 @@ export default function FormsPage() {
                 Simple click on each of the boxes and fill them out online.
               </h2>
               <h2 className="font-normal text-xl md:text-2xl text-white">
-                Complete all <strong>4</strong>&nbsp;forms{" "}
-                <strong className="bg-color3/30">prior</strong>
+                Complete all <strong>4</strong>&nbsp;forms&nbsp;
+                <strong className="underline">prior</strong>
                 &nbsp;to your first session!
               </h2>
             </div>
@@ -48,9 +48,12 @@ export default function FormsPage() {
               <h3 className="text-xl text-white">
                 Want a sneak peek of my office?
               </h3>
-              <button className="uppercase mt-1 py-1 px-5 border border-3 border-color1 bg-color1 text-white text-sm hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200">
-                <Link href="/contact">click here</Link>
-              </button>
+              <Link
+                href="/what-is-bie#tour-video"
+                className="py-1 px-5 border border border-white bg-color1 text-white text-sm hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200"
+              >
+                <button className="mt-1 uppercase">click here</button>
+              </Link>
             </div>
           </div>
           <div className="md:w-1/2 flex flex-col mx-auto space-y-10 p-5 lg:p-16 justify-center bg-white/10">
