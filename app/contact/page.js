@@ -4,6 +4,6 @@ export const metadata = {
   title: "Contact | Valley Allergy + Wellness",
 };
 
-export default function Contact() {
+export default async function Contact() {
   return <ContactPage />;
 }

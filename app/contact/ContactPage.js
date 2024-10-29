@@ -1,16 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import Script from "next/script";
 import { CldImage } from "next-cloudinary";
-
 import {
   Description,
   Field,
   Fieldset,
   Input,
   Label,
-  Legend,
   Select,
   Textarea,
   Button,
@@ -37,11 +34,8 @@ export default function ContactPage() {
             , you can contact us by filling out the form below.
           </p>
         </div>
-        <form onSubmit="emailSend(); reset(); return false;">
+        <form onSubmit="">
           <Fieldset className="space-y-6 rounded-xl bg-white/5 p-6 sm:p-10 max-w-screen-md mx-auto">
-            {/* <Legend className="text-base/7 font-semibold text-white">
-            Name (required)
-          </Legend> */}
             <div className="flex flex-col md:flex-row md:space-x-5">
               <Field className="md:w-1/2">
                 <Label className="text-sm/6 font-medium text-white">
@@ -179,17 +173,17 @@ export default function ContactPage() {
             <CldImage
               width="500"
               height="500"
-              src="https://res.cloudinary.com/dx97fht5v/image/upload/v1728434869/Valley_Allergy_Wellness_Office_Parking_yk939q.jpg"
+              src="https://res.cloudinary.com/dx97fht5v/image/upload/v1730080688/vaw-google-map-ss_icj74m.png"
               sizes="100vw"
-              alt="parking map of the clinic"
+              alt="google map view of the clinic"
               className="object-scale-down mx-auto md:ml-auto md:mr-5"
             />
             <CldImage
               width="500"
               height="500"
-              src="https://res.cloudinary.com/dx97fht5v/image/upload/v1730080688/vaw-google-map-ss_icj74m.png"
+              src="https://res.cloudinary.com/dx97fht5v/image/upload/v1728434869/Valley_Allergy_Wellness_Office_Parking_yk939q.jpg"
               sizes="100vw"
-              alt="google map view of the clinic"
+              alt="parking map of the clinic"
               className="object-scale-down mx-auto md:ml-auto md:mr-5"
             />
           </Link>
@@ -228,8 +222,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-      <Script scr="https://smtpjs.com/v3/smtp.js"></Script>
-      <Script src="ContactForm.js"></Script>
     </main>
   );
 }
