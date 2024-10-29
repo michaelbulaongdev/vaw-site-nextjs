@@ -50,7 +50,7 @@ export default function FormsPage() {
               </h3>
               <Link
                 href="/what-is-bie#tour-video"
-                className="py-1 px-5 border border border-white bg-color1 text-white text-sm hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200"
+                className="py-1 px-5 border border-white bg-color1 text-white text-sm hover:bg-white hover:border-color1 hover:text-color1 ease-in-out duration-200"
               >
                 <button className="mt-1 uppercase">click here</button>
               </Link>
