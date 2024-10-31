@@ -64,7 +64,7 @@ export default function WhatIsBiePage() {
 						height='480'
 						controls
 						preload='none'
-						poster='https://res.cloudinary.com/dx97fht5v/image/upload/v1730337406/tour-video-poster_xlxtmo.png'>
+						poster='https://res.cloudinary.com/dx97fht5v/image/upload/v1730339747/tour-video-poster_pol7oh.png'>
 						<source
 							src='https://res.cloudinary.com/dx97fht5v/video/upload/v1730302352/vaw-tour_vvreke.mp4'
 							type='video/mp4'
