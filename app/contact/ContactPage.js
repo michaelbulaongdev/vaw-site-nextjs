@@ -15,7 +15,7 @@ import {
 import {ChevronDownIcon} from '@heroicons/react/20/solid';
 import clsx from 'clsx';
 
-export default function ContactPage() {
+export default function ContactPage({sendEmail}) {
 	return (
 		<main className='flex flex-col'>
 			<section className='p-5 lg:p-10 bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1728055039/AdobeStock_85532144_fuq6m0.jpg)]'>
@@ -33,7 +33,7 @@ export default function ContactPage() {
 						, you can contact us by filling out the form below.
 					</p>
 				</div>
-				<form onSubmit=''>
+				<form action={sendEmail}>
 					<Fieldset className='space-y-6 rounded-xl bg-white/5 p-6 sm:p-10 max-w-screen-md mx-auto'>
 						<div className='flex flex-col md:flex-row md:space-x-5'>
 							<Field className='md:w-1/2'>

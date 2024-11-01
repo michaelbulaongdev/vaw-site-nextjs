@@ -1,9 +1,10 @@
-import ContactPage from "./ContactPage";
+import ContactPage from './ContactPage';
+import {sendEmail} from '../utils/email';
 
 export const metadata = {
-  title: "Contact | Valley Allergy + Wellness",
+	title: 'Contact | Valley Allergy + Wellness',
 };
 
-export default async function Contact() {
-  return <ContactPage />;
+export default function Contact() {
+	return <ContactPage sendEmail={sendEmail} />;
 }
