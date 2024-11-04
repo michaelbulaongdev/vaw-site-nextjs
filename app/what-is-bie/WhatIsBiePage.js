@@ -20,7 +20,7 @@ export default function WhatIsBiePage() {
 							the intolerances.
 						</p>
 					</div>
-					<div className='md:w-1/2 bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729433270/grass-image_vzapu2.jpg)] flex justify-center items-center m-5'>
+					<div className='p-5 md:w-1/2 bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729433270/grass-image_vzapu2.jpg)] flex justify-center items-center m-5'>
 						<Link
 							href='/theory-behind-bie'
 							className='mx-auto py-2 px-5 border border-white bg-color2 text-white text-xl text-center font-bold hover:bg-white/50 ease-in-out duration-200'>

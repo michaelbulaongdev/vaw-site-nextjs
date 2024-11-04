@@ -175,7 +175,7 @@ export default function ContactPage({sendEmail}) {
 							className='object-scale-down mx-auto md:ml-auto md:mr-5 border border-color1'
 						/>
 					</Link>
-					<div className='md:w-1/2 flex flex-col mx-auto md:ml-5 space-y-3 px-5 md:px-0 justify-center'>
+					<div className='md:w-1/2 flex flex-col md:ml-5 space-y-3 px-5 md:px-0 justify-center'>
 						<h4 className='text-color1 text-xl pt-5 md:pt-0'>Address:</h4>
 						<a
 							className='hover:text-color4 text-sm md:text-base'
@@ -201,7 +201,7 @@ export default function ContactPage({sendEmail}) {
 							className='object-scale-down mx-auto md:ml-auto md:mr-5 border border-color1'
 						/>
 					</Link>
-					<div className='md:w-1/2 flex flex-col mx-auto md:ml-5 space-y-3 px-5 md:px-0 justify-center'>
+					<div className='md:w-1/2 flex flex-col md:ml-5 space-y-3 px-5 md:px-0 justify-center'>
 						<h4 className='text-color1 text-xl pt-3'>Directions:</h4>
 						<ul className='text-sm md:text-base space-y-4 max-w-screen-sm'>
 							<li>
