@@ -42,7 +42,7 @@ export default function FormsPage() {
 								.
 							</h3>
 						</div>
-						<div className='p-3 md:p-5 text-center md:text-left'>
+						<div className='p-3 md:p-5 text-center'>
 							<h3 className='text-xl text-white'>
 								Want a sneak peek of my office?
 							</h3>

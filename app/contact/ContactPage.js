@@ -176,7 +176,7 @@ export default function ContactPage({sendEmail}) {
 						/>
 					</Link>
 					<div className='md:w-1/2 flex flex-col md:ml-5 space-y-3 px-5 md:px-0 justify-center'>
-						<h4 className='text-color1 text-xl pt-5 md:pt-0'>Address:</h4>
+						<h4 className='text-color1 text-2xl pt-5 md:pt-0'>Address:</h4>
 						<a
 							className='hover:text-color4 text-sm md:text-base'
 							href='https://maps.app.goo.gl/otoE1X1iBrQAHv9G8'
@@ -202,7 +202,7 @@ export default function ContactPage({sendEmail}) {
 						/>
 					</Link>
 					<div className='md:w-1/2 flex flex-col md:ml-5 space-y-3 px-5 md:px-0 justify-center'>
-						<h4 className='text-color1 text-xl pt-3'>Directions:</h4>
+						<h4 className='text-color1 text-2xl pt-3'>Parking:</h4>
 						<ul className='text-sm md:text-base space-y-4 max-w-screen-sm'>
 							<li>
 								The directions will likely have you turn onto&nbsp;

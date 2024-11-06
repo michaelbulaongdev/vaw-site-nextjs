@@ -11,7 +11,7 @@ export default function WhatIsBiePage() {
 						<h2 className='p-5 text-center text-3xl md:text-5xl'>
 							What is BIE?
 						</h2>
-						<p className='p-5 m-0 md:m-5 bg-color2/10 text-sm md:text-lg'>
+						<p className='p-5 m-0 md:m-5 bg-color2/10 text-sm md:text-lg text-center md:text-left'>
 							<strong>Bioenergetic Intolerance Elimination (BIE)</strong>,
 							founded in 1998, is an effective, non-invasive modality that
 							enables one’s body to recognize sensitivities or intolerances
@@ -33,7 +33,7 @@ export default function WhatIsBiePage() {
 				id='what-to-expect'
 				className='bg-cover bg-[url(https://res.cloudinary.com/dx97fht5v/image/upload/v1729993601/Sunlight_cs8fou.jpg)] p-5 md:p-10'>
 				<div className='max-w-screen-2xl mx-auto'>
-					<h2 className='bg-white/50 text-color1 mx-auto p-5 text-3xl lg:text-4xl text-center rounded-tl-3xl rounded-br-3xl lg:rounded-tl-full lg:rounded-br-full'>
+					<h2 className='bg-white/50 text-color1 mx-auto p-5 text-2xl lg:text-4xl text-center rounded-tl-3xl rounded-br-3xl lg:rounded-tl-full lg:rounded-br-full'>
 						When working with me, you can expect:
 					</h2>
 					<ul className='text-lg md:text-2xl max-w-2xl mx-auto text-left text-color1 space-y-7 p-5 md:p-10 mt-5 md:mt-10 bg-white/50 italic'>
