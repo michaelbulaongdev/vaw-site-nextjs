@@ -328,3 +328,4 @@ export default function HomePage() {
 }
 
 // site developed by michaelbulaongdev@gmail.com
+// disabled vercel toolbar
